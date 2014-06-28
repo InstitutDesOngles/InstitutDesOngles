@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      true
+#Sass
+sass:
+    sass_dir: 	  _sass
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            Insititutdesongles
+keywords: 		  Pose d'ongles, onglerie, manucure, nails art, décorations d'ongles, onglerie, ongles, ongles gel, Onglerie, beauté des mains et des pieds, french manucure, manucure, pédicure, Labège, Toulouse.
+description:      Institut des Ongles à Labège propose la pose d'ongles en gel, manucure, pédicure, beauté des mains et des pieds, french, réparation d'ongles cassés, décorations sur ongles. Onglerie à quelques minutes de Toulouse. 	
+url:              http://www.insititutdesongles.fr
+paginate:         1
+baseurl:          
+altlogo:		   Institut des ongles - Pose d'ongles, beauté des mains et de pieds, onglerie &agrave; Labège (proche de Toulouse).
+author:
+  name:           Emmanuel Vinas
+  url:            https://twitter.com/EmmanuelVinas
+  email:          vinas.emmanuel@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/EmmanuelVinas/ido

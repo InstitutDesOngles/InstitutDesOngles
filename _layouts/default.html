@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  {% include head.html %}
+
+  <body>
+    <div class="ido-wrapper">
+      <div class="ido-container">
+        {% include menu.html %}
+
+        <div class="ido-content-area">
+          {{ content }}
+        </div>
+
+        {% include footer.html %}
+      </div>
+    </div>
+    {% include body_includes.html %}
+  </body>
+
+</html>
