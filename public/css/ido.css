@@ -181,6 +181,9 @@ li div.fb-like {
   body {
     font-size: 14px; }
 
+  .menu li {
+    height: 30px; }
+
   .menu li a {
     line-height: 20px; }
 
@@ -188,7 +191,7 @@ li div.fb-like {
     font-size: 18px; }
 
   .ido-content-area {
-    padding: 30px 20px 60px 20px; }
+    padding: 40px 20px 60px 20px; }
 
   .ido-footer {
     bottom: 0;
