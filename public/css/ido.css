@@ -177,7 +177,7 @@ li div.fb-like {
   color: white; }
 
 /** Media */
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
   body {
     font-size: 14px; }
 
@@ -249,6 +249,6 @@ li div.fb-like {
 
   .ido-contact-map {
     margin-top: 10px; } }
-@media (min-width: 1050px) {
+@media (min-width: 1024px) {
   .logoheader, .ido-footer, .ido-container {
-    width: 1050px; } }
+    width: 1024px; } }

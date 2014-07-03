@@ -202,7 +202,7 @@ li.g-plus-one{
 }
 li div.fb-like{
   overflow: hidden;
-}
+} 
 
 /** Bootstrap */
 .list-group-item {
@@ -212,7 +212,7 @@ li div.fb-like{
 }
 
 /** Media */
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
   body{
     font-size:14px;
   }
@@ -294,8 +294,8 @@ li div.fb-like{
 
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 1024px) {
   .logoheader, .ido-footer, .ido-container {
-    width: 1050px;
+    width: 1024px;
   }
 }
