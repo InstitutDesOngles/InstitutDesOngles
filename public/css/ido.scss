@@ -205,6 +205,10 @@ ul.like-buttons img{
   }
   .menu li a{
     line-height: 20px;
+    padding:5px;
+  }
+  .menu li:last-child{
+   border-right: 0px;
   }
   h3{
     font-size:18px;
@@ -257,7 +261,7 @@ ul.like-buttons img{
     position:relative;
   }
   .ido-content-area {
-    padding:20px;
+    padding:25px 15px 15px 25px;
   }
   .menu li a{
     line-height: 12px;
