@@ -185,23 +185,14 @@ a:hover, a:active, a:focus
 ul.like-buttons{
   display:inline;
   list-style: none;
-  padding: 0;
-  margin:0 0 0 10px ;
-  width:190px;
-}
+ }
 ul.like-buttons li{
     display: inline;
-    margin-right: 10px;
+    margin:0 0 0 5px ;
 }
-li.twitter-like{
-    margin-top: 2px;
+ul.like-buttons img{
+  height:25px;
 }
-li.g-plus-one{
-  vertical-align:top;
-}
-li div.fb-like{
-  overflow: hidden;
-} 
 
 /** Bootstrap */
 .list-group-item {
