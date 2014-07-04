@@ -8,6 +8,7 @@ $lightGrey:#8B8B8B;
 $white:#FFFFFF;
 
 html, body {
+    padding:0; margin:0;
     height: 100%;
     font-size:14px;
 }
@@ -98,13 +99,6 @@ a:hover, a:active, a:focus
 }
 
 /** Container */
-.ido-wrapper {
-    height: 100%;
-    width: 100%;
-    padding: 0 20px;
-    overflow:auto;
-    z-index:1;
-}
 
 .ido-container {
     background: $bgColor;
@@ -234,7 +228,7 @@ ul.like-buttons img{
   .ido-header{
     text-align: center;
   }
-  .ido-wrapper, .ido-container{
+  .ido-container{
     padding: 0;
   }
   .logo-header{
