@@ -200,6 +200,9 @@ ul.like-buttons img{
   body{
     font-size:14px;
   }
+  .menu{
+    float:none;
+  }
   .menu li{
     height: 30px;
   }
@@ -214,7 +217,7 @@ ul.like-buttons img{
     font-size:18px;
   }
   .ido-content-area {
-    padding:40px 20px 60px 20px;
+    padding:20px 20px 60px 20px;
   }
   .ido-footer {
     bottom: 0;
@@ -261,7 +264,7 @@ ul.like-buttons img{
     position:relative;
   }
   .ido-content-area {
-    padding:25px 15px 15px 25px;
+    padding:10px 15px 15px 10px;
   }
   .menu li a{
     line-height: 12px;
