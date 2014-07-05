@@ -18,7 +18,7 @@ function initializeMap() {
 	var idoLatlng = new google.maps.LatLng(43.5376579,1.533350100000007);
 	var contentString = '<div style="width:150px;height=50px;text-align:left;">'+
 	'<div style="color:#441E20;font-weight:bold;font-size:16px;">Institut des Ongles</div>'+
-	'<div>7 Ter Chemin du Tricou</div><div>31670 Labège</div><div>06 36 36 30 27</div></div>';
+	'<div>7 Ter Chemin du Tricou</div><div>31670 Labège</div><div>06 71 64 93 93</div></div>';
 	var map = new google.maps.Map(document.getElementById('map-canvas'), getMapOptions());
 	var infowindow = new google.maps.InfoWindow({
 		content: contentString,
