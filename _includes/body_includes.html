@@ -2,9 +2,10 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="{{ site.baseurl }}/public/js/bootstrap.min.js"></script>
-<!-- Includes conversions if page = contact -->
-{% if page.group == 4 %}
+<!-- Includes Google Tag Manager -->
+{% include google_tag_manager.js %}
+<!-- If page is contact, includes facebook -->
+{% if page.group == 5 %}
   {% include facebook.html %}
-  {% include tarifs_conversion.js %}
 {% endif %}
     
