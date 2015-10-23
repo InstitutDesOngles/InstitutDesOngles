@@ -157,21 +157,8 @@ a:hover, a:active, a:focus
   color:$lightRedColor;
 }
 
-.ido-presta{
-  display: inline-block;
-  /* IE 7 hack */
-  *zoom:1;
-  *display: inline;
-  vertical-align: middle;
-}
-
 .ido-price{
-  display: inline-block;
   float:right;
-  /* IE 7 hack */
-  *zoom:1;
-  *display: inline;
-  vertical-align: middle;
 }
 
 /** Contacts **/
