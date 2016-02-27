@@ -6,6 +6,9 @@ sass:
     style: 	      compressed
 # Permalinks
 permalink:        pretty
+highlighter:      rouge
+gems:
+  - jekyll-sitemap
 
 
 # Setup
@@ -21,6 +24,7 @@ author:
   name:           Emmanuel Vinas
   url:            https://twitter.com/EmmanuelVinas
   email:          vinas.emmanuel@gmail.com
+promo:		      true
 
 # Custom vars
 version:          1.0.0

@@ -3,11 +3,11 @@ layout: default
 title: Accueil
 resource: true
 group: 1
-sitemap:
-    priority: 0.8
-    changefreq: 'monthly'
-    lastmod: 2015-10-22T00:00:01+00:00
 ---
+    {% if site.promo != null and site.promo == true %}
+    <mark><h2><a href="/promo.html">Profitez des promotions du moment!!</a></h2></mark>
+    {% endif %}
+
   <div class="ido-accueil-logo-container hideOnMobile">
     <img src="{{site.baseurl}}/public/img/accueil_bg_ido.png" class="ido-accueil-logo" alt="Institut des Ongles - La Beauté des mains et des pieds à Labège." />
   </div>
