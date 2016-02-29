@@ -100,15 +100,12 @@ a:hover, a:active, a:focus {
   padding:140px 20px 60px 20px;
 }
 
+
 /** Footer */
-.ido-footer {
-    bottom: 0;
-    position: fixed;
-    padding: 10px;
-    width: 100%;
-    background: #441E20;
-    text-align: center;
-    color:$white;
+footer{
+  background: #441E20;
+  text-align: center;
+  color:$white;
 }
 
 /** Acceuil*/
@@ -218,14 +215,10 @@ li> .badge{
   .ido-content-area {
     padding:40px 20px 60px 20px;
   }
-  .ido-footer {
-    bottom: 0;
-    position: fixed;
-  }
   .menu{
     position: relative;
   }
-  .ido-header, .menu, .ido-footer {
+  .ido-header, .menu {
     width: 100%;
   }
   .ido-header{
@@ -254,7 +247,7 @@ li> .badge{
   .rightMarginSmall{
     margin-right:2px;  
   }
-  .ido-header, .ido-footer{
+  .ido-header{
     position:relative;
   }
   .ido-content-area {
@@ -282,9 +275,6 @@ li> .badge{
 }
 
 @media (min-width: 1024px) {
-  .ido-footer {
-    width: 1024px;
-  }
   .img-salon{
 	 width:380px;
   }
@@ -294,9 +284,6 @@ li> .badge{
 }
 
 @media (min-width: 1200px) {
-  .ido-footer {
-    width:1200px;
-  }
   .img-salon{
 	width:500px;
   }
