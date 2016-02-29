@@ -32,13 +32,13 @@ body {
 /** Links */
 a:link, a:visited
 {
-  color:#FFF;
+  color:$white;
 }
 
 a:hover, a:active, a:focus
 {
   background:#441E20;
-  color:#FFF;
+  color:$white;
 }
 
 /** Header */
@@ -73,7 +73,7 @@ a:hover, a:active, a:focus
 
 .menu li{
  display: inline-block;
- border-right: 1px solid #FFFFFF;
+ border-right: 1px solid $white;
  text-transform: uppercase;
  font-weight:bold;
  font-size:0.8em;
@@ -90,7 +90,7 @@ a:hover, a:active, a:focus
 }
 
 .menu li.selected a{
-  color:#FFFFFF;
+  color:$white;
 }
 
 .menu li a:focus, .menu li a:hover, .menu li a:active
@@ -120,7 +120,7 @@ a:hover, a:active, a:focus
     width: 100%;
     background: #441E20;
     text-align: center;
-    color:FFFFFF;
+    color:$white;
 }
 
 /** Acceuil*/
@@ -195,6 +195,15 @@ ul.like-buttons img{
   border:1px solid $white;
   color:$white;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.80);
+  font-size:14px;
+}
+
+li> .badge{
+  font-size:14px;
+}
+
+.list-group-item strike {
+  padding-right:20px;
 }
 
 /** Media */
