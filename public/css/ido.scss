@@ -103,6 +103,10 @@ a:hover, a:active, a:focus {
 
 /** Footer */
 footer{
+  text-align: center;
+}
+
+footer > .container{
   background: #441E20;
   text-align: center;
   color:$white;
