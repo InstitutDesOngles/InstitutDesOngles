@@ -284,6 +284,10 @@ li> .badge{
 }
 
 @media (min-width: 1024px) {
+  .navbar-collapse{
+    padding-top:50px;
+  }
+
   .img-salon{
 	 width:380px;
   }
