@@ -60,6 +60,11 @@ a:hover, a:active, a:focus {
 }
 
 /** Menu */
+.navbar-toggle .icon-bar {
+  background:$white;
+}
+
+
 .menu {
     float:right;
     right: 10px;
