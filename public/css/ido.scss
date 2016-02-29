@@ -103,11 +103,8 @@ a:hover, a:active, a:focus {
 
 /** Container */
 
-.ido-container {
+.container {
     background: $bgColor;
-    min-height: 95%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .ido-content-area {
@@ -239,14 +236,11 @@ li> .badge{
   .menu{
     position: relative;
   }
-  .ido-header, .menu, .ido-footer, .ido-container {
+  .ido-header, .menu, .ido-footer {
     width: 100%;
   }
   .ido-header{
     text-align: center;
-  }
-  .ido-container{
-    padding: 0;
   }
   .logo-header{
     display:none;
@@ -299,7 +293,7 @@ li> .badge{
 }
 
 @media (min-width: 1024px) {
-  .logoheader, .ido-footer, .ido-container {
+  .logoheader, .ido-footer {
     width: 1024px;
   }
   .img-salon{
@@ -311,7 +305,7 @@ li> .badge{
 }
 
 @media (min-width: 1200px) {
-  .logoheader, .ido-footer, .ido-container {
+  .logoheader, .ido-footer {
     width:1200px;
   }
   .img-salon{
