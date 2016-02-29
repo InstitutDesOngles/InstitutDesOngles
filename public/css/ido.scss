@@ -48,17 +48,6 @@ a:hover, a:active, a:focus {
     z-index:2;
 }
 
-.logoheader {
-    border-top: 5px solid #441E20;
-    color: #441E20;
-    font-weight: normal;
-    line-height: 0.5em;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    z-index: 2;
-}
-
 /** Menu */
 .navbar-header .navbar-toggle .icon-bar {
   background:$white;
@@ -293,7 +282,7 @@ li> .badge{
 }
 
 @media (min-width: 1024px) {
-  .logoheader, .ido-footer {
+  .ido-footer {
     width: 1024px;
   }
   .img-salon{
@@ -305,7 +294,7 @@ li> .badge{
 }
 
 @media (min-width: 1200px) {
-  .logoheader, .ido-footer {
+  .ido-footer {
     width:1200px;
   }
   .img-salon{
