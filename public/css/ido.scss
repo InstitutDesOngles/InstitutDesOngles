@@ -31,14 +31,11 @@ body {
 }
 
 /** Links */
-a:link, a:visited
-{
+a:link, a:visited {
   color:$white;
 }
 
-a:hover, a:active, a:focus
-{
-  background:#441E20;
+a:hover, a:active, a:focus {
   color:$white;
 }
 
