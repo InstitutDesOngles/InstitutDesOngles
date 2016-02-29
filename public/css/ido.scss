@@ -49,6 +49,10 @@ a:hover, a:active, a:focus {
 }
 
 /** Menu */
+.navbar-header .navbar-brand{
+  padding:8px;
+}
+
 .navbar-header .navbar-toggle .icon-bar {
   background:$white;
 }
