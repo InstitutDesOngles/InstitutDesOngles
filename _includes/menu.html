@@ -22,11 +22,11 @@
 		      		{% if group == node.group %}
 		      			{% if node.resource == true %}
 			      			{% if node.title == page.title %}
-								<li class="active nav-item">
+							<li class="active nav-item">
 							{% else %}
-								<li class="nav-item">
+							<li class="nav-item">
 							{% endif %}
-							<a href="{{site.baseurl}}{{ node.url }}">{{node.title}}</a>
+								<a href="{{site.baseurl}}{{ node.url }}">{{node.title}}</a>
 							</li>
 						{% endif %}
 					{% endif %}
