@@ -61,43 +61,12 @@ a:hover, a:active, a:focus {
   padding-top:25px;
 }
 
-navbar-nav li.active{
-  background:#7A322C;
-}
-
-.menu {
-    float:right;
-    right: 10px;
-    top: 0px;
-    position: absolute;
-    list-style-type: none;
-    margin-top: 4px !important;
-}
-
-.menu li{
- display: inline-block;
- border-right: 1px solid $white;
- text-transform: uppercase;
- font-weight:bold;
- font-size:0.9em;
-}
-
-.menu li a{
-  color:#9F9F9F; 
-  line-height: 40px;
-  padding: 10px;
-}
-
-.menu li.selected{
-  background: #441E20;
-}
-
-.menu li.selected a{
+.navbar-nav li.active{
+  background:#441E20;
   color:$white;
 }
 
-.menu li a:focus, .menu li a:hover, .menu li a:active
-{
+.navbar-nav li a:hover {
   background: #DDDDDD;
   color:#441E20;
 }
