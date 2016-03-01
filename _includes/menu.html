@@ -17,7 +17,7 @@
     	<!-- Menu -->	
     	<ul class="nav navbar-nav navbar-right">
 			{% assign sorted_pages = site.pages %}
-			{% for group in (1..10) %}
+			{% for group in (1..20) %}
 				{% for node in sorted_pages  %}
 		      		{% if group == node.group %}
 		      			{% if node.resource == true %}
