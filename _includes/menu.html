@@ -20,15 +20,20 @@
 			{% for group in (1..20) %}
 				{% for node in sorted_pages  %}
 		      		{% if group == node.group %}
-		      			{% if node.resource == true %}
-			      			{% if node.group == page.group %}
-							<li class="active nav-item">
-							{% else %}
-							<li class="nav-item">
-							{% endif %}
-								<a href="{{site.baseurl}}{{ node.url }}">{{node.title}}</a>
-							</li>
+		      			{% if node.resource == false %}
+							{% assign visibility = "visible-xs" %}
+						{% else %}
+							{% assign visibility = "" %}
+						{% endif %}	
+
+		      			{% if node.group == page.group %}
+							<li class="active nav-item {{visibility}}">
+						{% else %}
+							<li class="nav-item {{visibility}}">
 						{% endif %}
+
+						<a href="{{site.baseurl}}{{ node.url }}">{{node.title}}</a>
+						</li>
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
