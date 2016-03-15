@@ -13,8 +13,8 @@ gems:
 
 # Setup
 title:            Institut Des Ongles (spécialiste de l'ongle et de l'esthétique)
-keywords: 		  Onglerie, ongles en gels,nail art, ongles, ongles gel, Onglerie, beauté des mains et des pieds, french manucure, manucure, pédicure, épilation, Labège, Toulouse.
-description:      Salon esthétique spécialiste de l'ongle &agrave Labège propose la pose d'ongles en gel, vernis permanent, manucure, pédicure, beauté des mains et des pieds, french, réparation d'ongles cassés, décorations sur ongles ainsi que des prestations d'esthétique (épilations...) &agrave quelques minutes de Toulouse. 	
+keywords: 		  Onglerie, salon esthétique, manucure, pédicure, beauté des mains, beauté des pieds, épilations, soins du visage, nail art
+description:      Salon esthétique spécialiste en onglerie vous propose des poses de gels et vernis, des épilations et des soins du visage &agrave Labège vous propose des prestations de qualité dans un environnement idéal pour se détendre. 	
 url:              http://www.institutdesongles.fr
 paginate:         1
 baseurl:          
@@ -26,6 +26,11 @@ author:
   email:          vinas.emmanuel@gmail.com
 promo:		      true
 
+seo:
+	onglerie1: Onglerie à Labège, vernis semi permanent, pédicure, manucure, ongles en gel, faux ongles. 
+	onglerie2: pose de vernis semi permanent, manucure, pédicure, beauté des mains, beauté des pieds 
+	soinvisage: soin du visage Maria Galland. les soins du visage en institut.
+	epilations: Epilations à la cire en institut. 	
 # Custom vars
 version:          1.0.0
 github:
