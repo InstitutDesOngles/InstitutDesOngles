@@ -9,79 +9,37 @@ meta-desc: Tarifs des soins du visage de l'institut
 <h3 style="margin-bottom:20px">L'institut des ongles vous propose les soins du visage Maria Galland. </h3>
 <img class="img-responsive" alt="Soins du visage Maria Galland" style="display: inline;margin-bottom:20px;" src="{{ site.baseurl }}/public/img/maria/cocon-massage.jpg" >
 </div>
-<div class="ido-price-title">
-  <h3>Soin Cocon (1h15)</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge">65€</span>
-    Tout n'est que bien être et détente dans ce soin. Un masque mousse bienfaisant enveloppe le visage comme un cocon. Idéal pour les peaux délicates  en quête de réconfort.
-  </li>
-</ul>
-<div class="ido-price-title">
-  <h3>Soin thalasso (1h15)</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge">65€</span>
-    Une vraie cure d'énergie. Le masque raffraîchissant aux alginates raffermit la peau tout en lui offrant une hydratation intense et longue durée. Les traces de fatigue s'estompent, le teint est lumineux.
-  </li>
-</ul>
-<div class="ido-price-title">
-  <h3>Soin Modelant (1h15)</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge">70€</span>
-    Le soin modelant est un classique de Maria Galland qui agit en profondeur de façon ciblée sur chaque zone de la peau. Des essences de caviar, orchidée noire, malachite, truffe blanche, argent, or, ou hyaluron s'appliquent sur mesure en fonction des besoins de votre peau. Il est composé d'un masque chauffant donnant un spectaculaire effet lifting.
-  </li>
-</ul>
-<div class="ido-price-title">
-  <h3>Soin Profilift (1h15)</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge">70€</span>
-    A effet immédiat, comme repulpées de l'intérieur, les rides paraissent regonflées et les contours liftés. Un modelage composé de manoeuvres de shiatsu et de pétrissages des muscles du visage. Redensifie la peau et incroyable détente.
-  </li>
-</ul>
-<div class="ido-price-title">
-  <h3>Soin Mille Lumières (1h30)</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">
-    <span class="badge">100€</span>
-    Le soin mille lumères est le nec plus ultra des soins Maria Galland en institut.  Il procure un éclat optimal et un effet anti-âge immédiat. Deux masques, un massage bienfaisant et des produits de haute qualité contribuent significativement à la réduction des rides, à la régénéation et à la fermeté de la peau.
-  </li>
-</ul>
-<div class="ido-price-title">
-  <h3>Soin système dermathologique</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item">
-    Ce programme de soin complet active de l'intérieur le renouvellement cellulaire de la peau avec un peeling intensif. Ce soin agit de façon ciblée selon les probèmes cutanés de votre peau :
-    <div style="margin-top:5px;">
-      Sécheresse (1h15)
-      <div class="badge" style="clear: both;float:right;">75€</div>
-    </div>
-    <div style="margin-top:5px;">
-      Rougeurs (1h15)
-      <div class="badge" style="clear: both;float:right;">75€</div>
-    </div>
-    <div style="margin-top:5px;">
-      Pigmentations (1h15)
-      <div class="badge" style="clear: both;float:right;">75€</div>
-    </div>
-    <div style="margin-top:5px;">
-      Impuretés (1h15)
-      <div class="badge" style="clear: both;float:right;">65€</div>
-    </div>
-    <div style="margin-top:5px;">
-      Impuretés (45 min)
-      <div class="badge" style="clear: both;float:right;">45€</div>
-    </div>
-    <div style="margin-top:5px;">
-      Forfaits pigmentations ou impuretés  (4+1 offert) (7+2 offerts)
-    </div>
-  </li>
-</ul>
+
+{% for section in site.data.price-face %}
+  <div class="ido-price-title">
+    <h3>{{section.title}}</h3>
+  </div>
+  <ul class="list-group">
+
+    {% if section.prestations %}
+      {% assign prestations = section.prestations %}
+      {% if section.description %}
+        <!-- Prestations with description-->
+        <li class="list-group-item">
+          {{ section.description }}
+          {% for prestation in prestations %}
+          <div style="margin-top:5px;">
+             {{ prestation.name }}
+             <div style="clear: both;float:right;" class="badge">{{ prestation.price }}</div>
+          </div>
+          {% endfor %}
+        </li>
+      {% else %}
+          <!-- Prestations -->
+        {% for prestation in prestations %}
+          <li class="list-group-item"><span class="badge">{{ prestation.price }}</span>{{ prestation.name }}</li>
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+
+    {% if section.sales %}
+      <!-- Sales -->
+      <li class="list-group-item">{{ section.sales }}</li>
+    {% endif %}
+  </ul>
+{% endfor %}

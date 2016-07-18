@@ -3,60 +3,33 @@ layout: default
 title: Tarifs Epilations
 resource: true
 group: 5
-meta-desc: Tarifs en épilations de l'institut
+meta-desc: Tarifs en épilations de l'institut (cire, caramel, fil)
 ---
-
-<div class="ido-price-title">
-  <h3>Epilations Femmes</h3>
+<div class="text-center">
+  <h3 style="margin-bottom:20px">Nous pratiquons au choix, les épilations à la cire, au caramel et au fil</h3>
 </div>
-<ul class="list-group">
-  <li class="list-group-item"><span class="badge">9€</span>Sourcils définition ligne</li>
-  <li class="list-group-item"><span class="badge">5€</span>Sourcils entretien</li>
-  <li class="list-group-item"><span class="badge">7€</span>Lèvres ou menton</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">10€</strike>5€</span>Maillot simple</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">14€</strike>7€</span>Maillot brésilien</li>
-  <li class="list-group-item"><span class="badge">17€</span>Maillot semi-integral</li>
-  <li class="list-group-item"><span class="badge">20€</span>Maillot intégral</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">8€</strike>4€</span>Aisselles</li>
-  <li class="list-group-item"><span class="badge">10€</span>Demi-bras</li>
-  <li class="list-group-item"><span class="badge">14€</span>Bras</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">14€</strike>7€</span>Demi jambes</li>
-  <li class="list-group-item"><span class="badge">14€</span>Cuisses</li>
-  <li class="list-group-item"><span class="badge">17€</span>3/4 jambes</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">20€</strike>14€</span>Jambes entières</li>
 
+{% for section in site.data.price-epilation %}
+  <div class="ido-price-title">
+    <h3>{{section.title}}</h3>
+  </div>
+  <ul class="list-group">
 
+    {% if section.prestations %}
+      {% assign prestations= section.prestations %}
+      {% for prestation in prestations %}
+      <li class="list-group-item">
+        <span class="badge">
+          {% if prestation.old-price %}<strike style="padding-right:10px;">{{ prestation.old-price }}</strike>{% endif %}
+          {{ prestation.price }}
+        </span>
+        {{ prestation.name }}
+      </li>
+      {% endfor %}
+    {% endif %}
 
-  
-  
-  
-</ul>
-
-<div class="ido-price-title">
-  <h3>Teintures</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item"><span class="badge">15€</span>Teinture sourcils</li>
-  <li class="list-group-item"><span class="badge">15€</span>Teinture cils</li>
-</ul>
-
-<div class="ido-price-title">
-  <h3>Epilations Hommes</h3>
-</div>
-<ul class="list-group">
-  <li class="list-group-item"><span class="badge">9€</span>Visage</li>
-  <li class="list-group-item"><span class="badge">15€</span>Torse</li>
-  <li class="list-group-item"><span class="badge">15€</span>Dos</li>
-  <li class="list-group-item"><span class="badge">10€</span>Aiselles</li>
-  <li class="list-group-item"><span class="badge">10€</span>Epaules</li>
-  <li class="list-group-item"><span class="badge">12€</span>1/2 bras</li>
-  <li class="list-group-item"><span class="badge">16€</span>Bras</li>
-  <li class="list-group-item"><span class="badge">25€</span>Jambres entières</li>
-</ul>
-
-<div class="ido-price-title">
-  <h3>Forfait</h3>
-</div>
-<ul class="list-group">
-<li class="list-group-item">10% de réduction pour 3 zones épilées.</li>
-</ul>
+    {% if section.sales %}
+      <li class="list-group-item">{{ section.sales }}</li>
+    {% endif %}
+  </ul>
+{% endfor %}

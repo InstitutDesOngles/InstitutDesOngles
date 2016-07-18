@@ -10,14 +10,12 @@ highlighter:      rouge
 gems:
   - jekyll-sitemap
 
-
 # Setup
 title:            Institut Des Ongles (spécialiste de l'ongle et de l'esthétique)
-keywords: 		  Onglerie, salon esthétique, manucure, pédicure, beauté des mains, beauté des pieds, épilations, soins du visage, nail art
-description:      Salon esthétique spécialiste en onglerie vous propose des poses de gels et vernis, des épilations et des soins du visage &agrave Labège vous propose des prestations de qualité dans un environnement idéal pour se détendre. 	
+keywords: 		  Onglerie, salon esthétique, manucure, pédicure, beauté des mains, beauté des pieds, épilations cire, épilations caramel, soins du visage, nail art
+description:      Salon esthétique spécialiste en onglerie vous propose des poses de gels et vernis, des épilations et des soins du visage &agrave Labège vous propose des prestations de qualité dans un environnement idéal pour se détendre.
 url:              http://www.institutdesongles.fr
-paginate:         1
-baseurl:          
+baseurl:
 altlogo:		  Institut des ongles - Onglerie, beauté des mains et de pieds, salon esthétique &agrave; Labège (proche de Toulouse).
 tel:			  06 71 64 93 93
 author:

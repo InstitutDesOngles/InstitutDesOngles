@@ -1,0 +1,35 @@
+- title: 'Soin Cocon (1h15)'
+  prestations:
+  - name: Tout n'est que bien être et détente dans ce soin. Un masque mousse bienfaisant enveloppe le visage comme un cocon. Idéal pour les peaux délicates  en quête de réconfort.
+    price: 65€
+- title: 'Soin thalasso (1h15)'
+  prestations:
+  - name: Une vraie cure d'énergie. Le masque raffraîchissant aux alginates raffermit la peau tout en lui offrant une hydratation intense et longue durée. Les traces de fatigue s'estompent, le teint est lumineux.
+    price: 65€
+- title: 'Soin Modelant (1h15)'
+  prestations:
+  - name: Le soin modelant est un classique de Maria Galland qui agit en profondeur de façon ciblée sur chaque zone de la peau. Des essences de caviar, orchidée noire, malachite, truffe blanche, argent, or, ou hyaluron s'appliquent sur mesure en fonction des besoins de votre peau. Il est composé d'un masque chauffant donnant un spectaculaire effet lifting.
+    price: 70€
+- title: 'Soin Profilift (1h15)'
+  prestations:
+  - name: A effet immédiat, comme repulpées de l'intérieur, les rides paraissent regonflées et les contours liftés. Un modelage composé de manoeuvres de shiatsu et de pétrissages des muscles du visage. Redensifie la peau et incroyable détente.
+    price: 70€
+- title: 'Soin Mille Lumières (1h30)'
+  prestations:
+  - name: 'Le soin mille lumères est le nec plus ultra des soins Maria Galland en institut.  Il procure un éclat optimal et un effet anti-âge immédiat. Deux masques, un massage bienfaisant et des produits de haute qualité contribuent significativement à la réduction des rides, à la régénéation et à la fermeté de la peau.'
+    price: 100€
+- title: 'Soin système dermathologique'
+  description : Ce programme de soin complet active de l'intérieur le renouvellement cellulaire de la peau avec un peeling intensif. Ce soin agit de façon ciblée selon les probèmes cutanés de votre peau
+  prestations:
+  - name: 'Sécheresse (1h15)'
+    price: 75€
+  - name: 'Rougeurs (1h15)'
+    price: 75€
+  - name: 'Pigmentations (1h15)'
+    price: 75€
+  - name: 'Impuretés (1h15)'
+    price: 65€
+  - name: 'Impuretés (45 min)'
+    price: 45€
+  - name: 'Forfaits pigmentations ou impuretés  (4+1 offert) (7+2 offerts)'
+    price: ''

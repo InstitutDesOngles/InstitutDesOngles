@@ -1,0 +1,61 @@
+- title: 'Epilations Femmes'
+  prestations :
+  - name: 'Sourcils définition ligne'
+    price: 9€
+  - name: 'Sourcils entretien'
+    price: 5€
+  - name: 'Lèvres ou menton'
+    price: 7€
+  - name: 'Maillot simple'
+    price: 5€
+    old-price: 10€
+  - name: 'Maillot brésilien'
+    price: 7€
+    old-price: 14€
+  - name: 'Maillot semi-integral'
+    price: 17€
+  - name: 'Maillot intégral'
+    price: 20€
+  - name: 'Aisselles'
+    price: 4€
+    old-price: 8€
+  - name: 'Demi-bras'
+    price: 10€
+  - name: 'Bras'
+    price: 14€
+  - name: 'Demi jambes'
+    price: 7€
+    old-price: 14€
+  - name: 'Cuisses'
+    price: 14€
+  - name: '3/4 jambes'
+    price: 17€
+  - name: 'Jambes entières'
+    price: 14€
+    old-price: 20€
+- title: 'Teintures'
+  prestations:
+  - name: 'Teinture sourcils'
+    price: 15€
+  - name: 'Teinture cils'
+    price: 15€
+- title: 'Epilations Hommes'
+  prestations:
+  - name: 'Visage'
+    price: 9€
+  - name: 'Torse'
+    price: 15€
+  - name: 'Dos'
+    price: 15€
+  - name: 'Aiselles'
+    price: 10€
+  - name: 'Epaules'
+    price: 10€
+  - name: '1/2 bras'
+    price: 12€
+  - name: 'Bras'
+    price: 16€
+  - name: 'Jambres entières'
+    price: 25€
+- title: Forfait
+  sales: 10% de réduction pour 3 zones épilées.
