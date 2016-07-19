@@ -1,32 +1,34 @@
 ---
 layout: default
 title: Promotions
-resource: true
+resource: false
 group: 6
 meta-desc: Promotions du mois de l'institut de beauté
 ---
 
-<h4>Venez profiter des promotions du primptemps.</h4>
+<h4>Venez profiter des promotions du moment.</h4>
 
-<div class="ido-price-title">
-  <h3>Epilations</h3>
-</div>
+{% for section in site.data.promo %}
+  <div class="ido-price-title">
+    <h3>{{section.title}}{% if section.price %} - {{ section.price }} {% endif %}{% if section.old-price %} au lieu de {{ section.old-price }} {% endif %}</h3>
+  </div>
+  <ul class="list-group">
 
-<ul class="list-group">
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">20€</strike>14€</span>Jambes entières</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">14€</strike>7€</span>Demi jambes</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">10€</strike>5€</span>Maillot simple</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">14€</strike>7€</span>Maillot brésilien</li>
-  <li class="list-group-item"><span class="badge"><strike style="padding-right:10px;">8€</strike>4€</span>Aisselles</li>
-</ul>
-
-<div class="ido-price-title">
-  <h3>Pack Holidays - 35€ au lieu de <strike>59€</strike> comprenant:</h3>
-</div>
-
-<ul class="list-group">
-  <li class="list-group-item">Vernis semi-permanent Pieds</li>
-  <li class="list-group-item">Epilation jambes entières</li>
-  <li class="list-group-item">Epilation maillot brésilien</li>
-  <li class="list-group-item">Epilation Aisselles</li>
-</ul>
+    {% if section.prestations %}
+      {% assign prestations= section.prestations %}
+      {% for prestation in prestations %}
+      <li class="list-group-item">
+        {% if prestation.price %}
+        <span class="badge">
+          {% if prestation.old-price %}
+            <strike style="padding-right:10px;">{{ prestation.old-price }}</strike>
+          {% endif %}
+          {{ prestation.price }}
+        </span>
+        {% endif %}
+        {{ prestation.name }}
+      </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+{% endfor %}

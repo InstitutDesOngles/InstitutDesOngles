@@ -7,32 +7,29 @@
   - name: 'Lèvres ou menton'
     price: 7€
   - name: 'Maillot simple'
-    price: 5€
-    old-price: 10€
+    price: 10€
+#    old-price:
   - name: 'Maillot brésilien'
-    price: 7€
-    old-price: 14€
+    price: 14€
   - name: 'Maillot semi-integral'
     price: 17€
   - name: 'Maillot intégral'
     price: 20€
   - name: 'Aisselles'
-    price: 4€
-    old-price: 8€
+    price: 8€
   - name: 'Demi-bras'
     price: 10€
   - name: 'Bras'
     price: 14€
   - name: 'Demi jambes'
-    price: 7€
-    old-price: 14€
+    price: 14€
   - name: 'Cuisses'
     price: 14€
   - name: '3/4 jambes'
     price: 17€
   - name: 'Jambes entières'
-    price: 14€
-    old-price: 20€
+    price: 20€
+
 - title: 'Teintures'
   prestations:
   - name: 'Teinture sourcils'
