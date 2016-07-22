@@ -3,8 +3,8 @@
 
 $bgColor: #242424;
 $darkRedColor:#441E20;
-$lightRedColor:#7A3639;
-$lightGrey:#8B8B8B;
+$lightRedColor:#B94254;
+$lightGrey:#B8B6B4;
 $white:#FFFFFF;
 $font_size_15: 15px;
 
@@ -22,13 +22,13 @@ body {
 }
 
 .leftMargin{
-  margin-left:20px;  
+  margin-left:20px;
 }
 .leftMarginSmall{
-  margin-left:5px;  
+  margin-left:5px;
 }
 .rightMarginSmall{
-  margin-right:5px;  
+  margin-right:5px;
 }
 
 /** Links */
@@ -118,7 +118,7 @@ footer > .container{
 
 /** Tarifs **/
 .ido-price-title{
-  display: table; height: 40px; 
+  display: table; height: 40px;
   overflow: hidden;
   background: url('../img/orchidee_small.png') no-repeat;
   padding-left: 40px;
@@ -142,7 +142,7 @@ footer > .container{
 .ido-contact-map{
   float:left;
   width:55%;
-}  
+}
 
 #map-canvas{
   width:100%;
@@ -227,13 +227,13 @@ li> .badge{
     font-size:11px;
   }
   .leftMargin{
-    margin-left:10px;  
+    margin-left:10px;
   }
   .leftMarginSmall{
-    margin-left:2px;  
+    margin-left:2px;
   }
   .rightMarginSmall{
-    margin-right:2px;  
+    margin-right:2px;
   }
   .ido-header{
     position:relative;
