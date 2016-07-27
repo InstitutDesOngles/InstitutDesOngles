@@ -2,10 +2,13 @@
   prestations :
   - name: 'Sourcils définition ligne'
     price: 9€
+    desc:  Epilation au fil possible, au même tarif
   - name: 'Sourcils entretien'
     price: 5€
+    desc:  Epilation au fil possible, au même tarif
   - name: 'Lèvres ou menton'
     price: 7€
+    desc:  Epilation au fil possible, au même tarif
   - name: 'Maillot simple'
     price: 10€
 #    old-price:

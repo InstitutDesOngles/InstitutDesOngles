@@ -7,6 +7,7 @@ $lightRedColor:#B94254;
 $lightGrey:#B8B6B4;
 $white:#FFFFFF;
 $font_size_15: 15px;
+$font_size_14: 14px;
 
 html, body {
     padding:0; margin:0;
@@ -125,13 +126,26 @@ footer > .container{
   background-size: 35px Auto;
 }
 
-.ido-price-title h3{
+.ido-price-title h3 {
   display: table-cell; vertical-align: middle;
   color:$lightRedColor;
 }
 
+.ido-item-desc {
+  color:$lightRedColor;
+  font-size:$font_size_15;
+  padding-left:15px;
+  text-shadow:0 1px 1px rgba(0,0,0,0.4)
+}
+
 .ido-price{
   float:right;
+}
+
+/** Epil **/
+.ido-epil-type{
+  color:$lightRedColor;
+  font-size:28px
 }
 
 /** Contacts **/

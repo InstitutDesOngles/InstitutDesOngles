@@ -3,10 +3,10 @@ layout: default
 title: Tarifs Epilations
 resource: true
 group: 5
-meta-desc: Tarifs en épilations à la cire, au caramel et au fil. 
+meta-desc: Tarifs en épilations à la cire, au caramel et au fil.
 ---
 <div class="text-center">
-  <h3 style="margin-bottom:20px">Nous pratiquons au choix, les épilations à la cire, au caramel et au fil</h3>
+  <h3 style="margin-bottom:20px">Nous pratiquons les épilations à la <span class="cido-epil-type">Cire</span>, au <span class="cido-epil-type">Caramel</span> et au <span class="cido-epil-type">Fil</span>.</h3>
 </div>
 
 {% for section in site.data.price-epilation %}
@@ -24,6 +24,7 @@ meta-desc: Tarifs en épilations à la cire, au caramel et au fil.
           {{ prestation.price }}
         </span>
         {{ prestation.name }}
+        {% if prestation.desc %}<div class="ido-item-desc">{{ prestation.desc }}</div>{% endif %}
       </li>
       {% endfor %}
     {% endif %}
