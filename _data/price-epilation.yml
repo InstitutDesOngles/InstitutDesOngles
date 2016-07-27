@@ -2,36 +2,46 @@
   prestations :
   - name: 'Sourcils définition ligne'
     price: 9€
-    desc:  Epilation au fil possible, au même tarif
+    desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Sourcils entretien'
     price: 5€
-    desc:  Epilation au fil possible, au même tarif
+    desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Lèvres ou menton'
     price: 7€
-    desc:  Epilation au fil possible, au même tarif
+    desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Maillot simple'
     price: 10€
 #    old-price:
   - name: 'Maillot brésilien'
     price: 14€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Maillot semi-integral'
     price: 17€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Maillot intégral'
     price: 20€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Aisselles'
     price: 8€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Demi-bras'
     price: 10€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Bras'
     price: 14€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Demi jambes'
     price: 14€
+    desc:  Epilation à la cire ou au caramel (+10€)
   - name: 'Cuisses'
     price: 14€
+    desc:  Epilation à la cire ou au caramel , au même tarif
   - name: '3/4 jambes'
     price: 17€
+    desc:  Epilation à la cire ou au caramel (+10€)
   - name: 'Jambes entières'
     price: 20€
+    desc:  Epilation à la cire ou au caramel (+10€)
 
 - title: 'Teintures'
   prestations:
@@ -39,6 +49,7 @@
     price: 15€
   - name: 'Teinture cils'
     price: 15€
+    
 - title: 'Epilations Hommes'
   prestations:
   - name: 'Visage'
