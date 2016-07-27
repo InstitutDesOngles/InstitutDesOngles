@@ -11,6 +11,7 @@
     desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Maillot simple'
     price: 10€
+    desc:  Epilation à la cire ou au fil , au même tarif
 #    old-price:
   - name: 'Maillot brésilien'
     price: 14€
@@ -49,7 +50,7 @@
     price: 15€
   - name: 'Teinture cils'
     price: 15€
-    
+
 - title: 'Epilations Hommes'
   prestations:
   - name: 'Visage'
