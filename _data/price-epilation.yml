@@ -1,47 +1,38 @@
 - title: 'Epilations Femmes'
   prestations :
   - name: 'Sourcils définition ligne'
-    price: 9€
+    price: 12€
     desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Sourcils entretien'
-    price: 7€
+    price: 9€
     desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Lèvres ou menton'
-    price: 7€
+    price: 6€
     desc:  Epilation à la cire ou au fil , au même tarif
   - name: 'Maillot simple'
-    price: 10€
+    price: 9€
     desc:  Epilation à la cire ou au fil , au même tarif
 #    old-price:
   - name: 'Maillot brésilien'
     price: 14€
     desc:  Epilation à la cire ou au caramel , au même tarif
-  - name: 'Maillot semi-integral'
-    price: 17€
-    desc:  Epilation à la cire ou au caramel , au même tarif
-  - name: 'Maillot intégral'
-    price: 20€
+  - name: 'Maillot intégral / semi-intégral :'
+    price: 22€
     desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Aisselles'
-    price: 8€
+    price: 9€
     desc:  Epilation à la cire ou au caramel , au même tarif
   - name: 'Demi-bras'
-    price: 10€
+    price: 11€
     desc:  Epilation à la cire ou au caramel , au même tarif
-  - name: 'Bras'
-    price: 14€
-    desc:  Epilation à la cire ou au caramel , au même tarif
-  - name: 'Demi jambes'
-    price: 14€
-    desc:  Epilation à la cire ou au caramel (+10€)
-  - name: 'Cuisses'
-    price: 14€
+  - name: 'Bras / demi jambes / cuisses'
+    price: 15€
     desc:  Epilation à la cire ou au caramel , au même tarif
   - name: '3/4 jambes'
-    price: 17€
+    price: 18€
     desc:  Epilation à la cire ou au caramel (+10€)
   - name: 'Jambes entières'
-    price: 20€
+    price: 22€
     desc:  Epilation à la cire ou au caramel (+10€)
 
 - title: 'Teintures'
@@ -56,9 +47,9 @@
   - name: 'Visage'
     price: 9€
   - name: 'Torse'
-    price: 15€
+    price: 17€
   - name: 'Dos'
-    price: 15€
+    price: 17€
   - name: 'Aiselles'
     price: 10€
   - name: 'Epaules'
@@ -68,6 +59,6 @@
   - name: 'Bras'
     price: 16€
   - name: 'Jambres entières'
-    price: 25€
+    price: 30€
 - title: Forfait
   sales: 10% de réduction pour 3 zones épilées.

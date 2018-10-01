@@ -1,19 +1,19 @@
 - title: 'Beauté des mains'
   prestations :
   - name: Manucure
-    price: 17€
+    price: 19€
   - name: 'Vernis semi-permanent'
-    price: 22€
+    price: 24€
   - name: 'Manucure + Vernis semi-permanent'
-    price: 27€
+    price: 29€
   - name: 'Pose de gel french ou couleur avec extensions des ongles'
-    price: 52€
+    price: 55€
   - name: 'Pose de gel french ou couleur sans extensions des ongles'
-    price: 42€
+    price: 45€
   - name: 'Remplissage french ou couleur'
-    price: 37€
+    price: 39€
   - name: 'Remplissage gel transparent'
-    price: 32€
+    price: 34€
   - name: ''
     price: "1€/ongle ou 8€/10 ongles</span>Décoration d'ongles (strass, stickers...)"
   - name: 'Nail art'
@@ -26,13 +26,11 @@
     price: 5€
 - title: 'Beauté des pieds'
   prestations:
-  - name: 'Vernis semi-permanent'
-    price: 17€
-  - name: 'Mini pédicure (ongles limés, pieds trempés dans le jacuzzi, cuticules enlevés, pose vernis semi-permanent)'
-    price: 27€
-  - name: 'Pédicure callosité (Mini pédicure, retrait callosités, gommage demi-jambes et pieds)'
-    price: 32€
-  - name: 'Pédicure Luxe (Mini pédicure, Pédicure callosité, massage demi-jambes)'
-    price: 42€
+  - name: 'Minipédi (ongles limés, pieds trempés dans le jacuzzi, cuticules enlevés, pose vernis semi-permanent)'
+    price: 29€
+  - name: 'Pédi callosité (Mini pédicure, retrait callosités, gommage demi-jambes et pieds)'
+    price: 35€
+  - name: 'Pédi Luxe (Mini pédicure, Pédicure callosité, massage demi-jambes)'
+    price: 45€
 - title : 'Fidélité'
   sales: 1 soin beauté des mains ou des pieds OFFERT tous les 10 soins.
