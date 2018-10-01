@@ -1,0 +1,24 @@
+- title: 'Hammam (30 min)'
+  prestations:
+  - name: 
+    price: 30€
+- title: 'Gommage relaxant (45 min)'
+  prestations:
+  - name: tout le corps.
+    price: 32€
+- title: 'Modelage dos / Jambes (45 min)'
+  prestations:
+  - name: 
+    price: 35€
+- title: 'Instant de plénitude (1h15)'
+  prestations:
+  - name: Faites vous dorloter avec un soin relaxant pour tout le corps qui vous fera oublier le tumulte de la vie quotidienne et vous laissera tonifiée et raffraichie.
+    price: 65€
+- title: 'Soin silouhette (1h)'
+  prestations:
+  - name: Des soins ciblés minceur, anti-cellulite, pour chaque zone du corps; ventre, fesses, jambes. 
+    price: 55€
+- title: 'Soin silouhette complet(1h30)'
+  prestations:
+  - name: Soin silouette complet avec gommage et enveloppement.
+    price: 95€
