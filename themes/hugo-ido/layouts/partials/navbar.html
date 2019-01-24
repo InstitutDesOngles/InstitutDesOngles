@@ -1,0 +1,56 @@
+{{- $navbar := .Site.Params.navbar }}
+{{- $logo := .Site.Data.institut.logos.notext }} 
+{{ $url := .URL }}
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="{{ printf "/images/logos/%s" $logo | absURL }}" alt="" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+ 
+      <div id="navbar-menu" class="navbar-menu is-static">
+     
+        <div class="navbar-end">
+
+          {{- range sort (where .Site.Pages "Params.menu" true) ".Params.order" }}
+          {{- if .Params.contact }}
+          <a href="{{ .Permalink }}" class="navbar-item is-primary {{ if eq .URL $url }}is-active{{else}}{{end}}">
+              {{ .Title }}
+          </a>
+          {{else}}
+          <a href="{{ .Permalink }}" class="navbar-item is-secondary {{ if eq .URL $url }}is-active{{end}}">
+              {{ .Title }}
+          </a>
+          {{end}}
+       
+
+
+          <!-- <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+               
+              </a>
+  
+              <div class="navbar-dropdown">
+          // sublink
+                <a href="url" class="navbar-item">
+                </a>
+              </div>
+            </div>
+            <a href="url" class="navbar-item is-primary">
+            </a>
+            <a href="url" class="navbar-item is-secondary">
+              
+            </a> -->
+
+          {{- end }}
+        </div>
+      </div>
+  </div>
+</nav>

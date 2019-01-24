@@ -1,0 +1,38 @@
+hand:
+  - title: Manucure
+    price: 19
+  - title: Vernis semi-permanent
+    price: 24
+  - title: Manucure + Vernis semi-permanent
+    price: 29
+  - title: Pose de gel french ou couleur
+    subtitle : avec extensions des ongles
+    price: 55
+  - title: Pose de gel french ou couleur
+    subtitle: sans extensions des ongles
+    price: 45
+  - title: Remplissage french ou couleur
+    price: 39
+  - title: Remplissage gel transparent
+    price: 34
+  - title: Décoration d'ongles
+    subtitle: (strass, stickers...)
+    price: 1€/ongle OU 8€/10 ongles
+  - title: Nail art
+    price: 3
+  - title: Réparation ongle cassé (hors remplissage 5€)
+    price: 3
+  - title: Dépose gel
+    price: 10
+  - title: Dépose vernis semi-permanent
+    price: 5
+foot:    
+  - title: Minipédi
+    subtitle: Ongles limés, pieds plongés dans le jacuzzi, retrait des cuticules, pose vernis semi-permanent
+    price: 29     
+  - title: Pédi callosité
+    subtitle: minipédi + retrait callosités, gommage demi-jambes et pieds
+    price: 35  
+  - title: Pédi Luxe
+    subtitle: pédi calliosité + massage
+    price: 45

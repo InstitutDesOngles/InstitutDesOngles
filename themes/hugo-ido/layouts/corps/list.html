@@ -1,0 +1,56 @@
+{{ define "main" }} 
+{{- $corps := .Site.Data.corps.soins }}
+{{- $offers := .Site.Data.corps.offers }}
+
+<section class="home is-fullheight is-default">
+  <div class="home-body">
+    <div class="home-logo">
+      <img class="full-width" src="../images/corps/corps-1.jpg" />
+    </div>
+    <div class="container-full-width">
+      <div class="home-logo-container">
+        <div class="epil-logo-container">
+          
+          <div class="price-box is-center card-white">
+            <div class="columns">
+              <div class="column is-two-thirds">
+                <h2 class="price-title has-left-padding is-pink is-uppercase">Corps</h2>
+                {{range $index, $element := $corps }}
+                <div class="prices">
+                  <span class="name">{{ .title }}</span
+                  ><span class="separator"></span
+                  ><span class="price is-pink">{{ .price }}€</span>
+                </div>
+                {{ if .subtitle }} 
+                  <div class="price-subtitle">{{ .subtitle }}</div>
+                {{ end }}
+
+                {{ end }}
+              </div>
+              <div class="column is-one-third is-hidden-mobile">
+                  <img class="full-width price-picture" src="../images/corps/corps-2.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="price-box is-center card-white">
+            <div class="columns">
+                
+              <div class="column is-two-thirds">
+                <h2 class="price-title has-left-padding is-brown is-uppercase">Pack</h2>
+                {{range $index, $element := $offers }}
+                <div class="prices">
+                  <span class="name">{{ .title }}</span>
+                  <span class="separator"></span>
+                  <span class="price is-brown">{{ .price }}€</span>
+                </div>
+                {{ end }}
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

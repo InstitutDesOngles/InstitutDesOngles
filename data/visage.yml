@@ -1,0 +1,60 @@
+soins: 
+  - title:
+  - title: D-Tox peau neuve (45min)
+    subtitle: Nettoie et détoxifie en profondeur pour une peau visiblement purifiée et éclatant
+    duration: 45min
+    price: 45
+    style: card-silver
+  - title: Soin cocon
+    subtitle: Un soin bien-être qui efface tous les signes de stress. La peau est détendue, apaisée et éclatante.
+    duration: 1h15
+    price: 65
+    style: card-pink 
+  - title: Soin Thalasso
+    subtitle: Un soin énergie, à base d’algues spiruline, qui hydrate, tonifie et réénergise la peau
+    duration: 1h15
+    price: 70     
+    style: card-pink
+  - title: Luménéclat
+    subtitle: Un soin qui revitalise instantanément la peau fatiguée, aide à estomper les premiers signes de l’âge et procure un éclat de jeunesse.
+    duration: 1h15
+    price: 75     
+    style: card-brown
+  - title: Lift'expert
+    subtitle: Soin lifting avec modelage innovant qui repulpe et raffermit la peau instantanément. Les rides sont estompées et les contours des yeux redéfinis.
+    duration: 1h15
+    price: 80     
+    style: card-silver 
+  - title: Modelant
+    subtitle: Le soin iconique ultra personnalisé à l’effet lifting spectaculaire. La peau est visiblement plus jeune, les traits du visage sont redéfinis, la peau est plus dense et le teint est éclatant.
+    duration: 1h30
+    price: 89     
+    style: card-brown
+  - title: Mille lumières
+    subtitle: "Un soin alliant luxe suprême et jeunesse globale ciblant tous les signes de l’âge : densité, fermeté, rides lissées, hydratation, nutrition."
+    duration: 1h30
+    price: 100     
+    style: card-silver
+saisonnier : 
+  - title: Eclat
+    duration: 45 min
+    price: 49     
+  - title: Anti-âge
+    duration: 1h30
+    price: 95     
+dermato:
+  - title: Sécheresse
+    duration: 1h15
+    price: 75
+  - title: Impuretés
+    duration: 1h15
+    price: 65
+  - title: Rougeurs
+    duration: 1h15
+    price: 75
+  - title: Impuretés
+    duration: 45 min
+    price: 45
+  - title: Pigmentation
+    duration: 1h15
+    price: 75

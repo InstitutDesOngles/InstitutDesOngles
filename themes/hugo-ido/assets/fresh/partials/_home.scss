@@ -1,0 +1,28 @@
+/* ==========================================================================
+Hero styles
+========================================================================== */
+
+.home-body {
+    padding-top: 4.8rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    .title, .subtitle {
+        font-family: 'Open Sans', sans-serif;
+    }
+    .title {
+        &.is-bold {
+            font-weight: 700;
+        }
+    }
+    .subtitle {
+        &.is-muted {
+            color: $white;
+        }
+    }
+}
+
+.home-foot {
+    img.partner-logo {
+        height: 70px;
+    }
+}
