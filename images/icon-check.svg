@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1000 1000"
+   enable-background="new 0 0 1000 1000"
+   xml:space="preserve"
+   id="svg8"
+   sodipodi:docname="icon-check.svg"
+   inkscape:version="0.92.3 (unknown)"><metadata
+   id="metadata14"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs12" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1867"
+   inkscape:window-height="1025"
+   id="namedview10"
+   showgrid="false"
+   inkscape:zoom="0.6675088"
+   inkscape:cx="104.99918"
+   inkscape:cy="631.89767"
+   inkscape:window-x="1973"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg8" />
+<g
+   id="g6"
+   style="fill:#d91179;fill-opacity:1"><path
+     d="M500,990c-130.9,0-253.9-51-346.5-143.5C60.9,754,10,630.9,10,500.1c0-130.9,51-253.9,143.5-346.5C246,60.9,369.1,10,500,10c130.9,0,253.9,50.9,346.5,143.6C939.1,246.1,990,369.1,990,500.1C990,631,939,754,846.5,846.5C754,939,630.9,990,500,990z M500,61.6C258.2,61.6,61.6,258.2,61.6,500c0,241.8,196.7,438.4,438.4,438.4c241.8,0,438.4-196.6,438.4-438.4C938.4,258.2,741.8,61.6,500,61.6z"
+     id="path2"
+     style="fill:#d91179;fill-opacity:1" /><path
+     d="M396.8,706.3c-6.6,0-13.2-2.5-18.3-7.6L223.9,544c-10-10-10-26.4,0-36.5c10-10,26.4-10,36.5,0l136.5,136.5l342.8-342.8c10.1-10,26.4-10,36.5,0c10.1,10,10.1,26.4,0,36.5l-361,361c-5.1,5.1-11.7,7.6-18.3,7.6H396.8z"
+     id="path4"
+     style="fill:#d91179;fill-opacity:1" /></g>
+</svg>
