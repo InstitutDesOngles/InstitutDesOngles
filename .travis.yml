@@ -5,12 +5,13 @@ python:
 
 # before_install
 # install - install any dependencies required
+
 install:
-    - apt-get install hugo
     #- go get --tags extended github.com/gohugoio/hugo
+  - sudo apt-get install hugo
 
 before_script:
-    - rm -rf public 2> /dev/null
+  - rm -rf public 2> /dev/null
 
 # script - run the build script
 script:
