@@ -7,9 +7,8 @@ python:
 # install - install any dependencies required
 
 install:
-    #- go get --tags extended github.com/gohugoio/hugo
-  - sudo apt-get install hugo
-
+  - go get github.com/gohugoio/hugo --tags extended
+  
 before_script:
   - rm -rf public 2> /dev/null
 
