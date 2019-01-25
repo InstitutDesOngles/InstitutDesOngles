@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- $soinsvisage := .Site.Data.visage.soins }} 
-{{- $soinsdermato := .Site.Data.visage.dermato }} 
+{{- $soinssaison := .Site.Data.visage.saisonnier }} 
 <section class="home is-fullheight is-default">
     <div class="home-body">
         <div class="home-logo">
@@ -55,13 +55,13 @@
 <section class="home-maria is-fullheight">
     <div class="container has-bottom-space">
         <div class="title-wrapper has-text-centered">
-            <h1 class="title is-2 is-pink is-uppercase">Soin dermatologique</h1>
+            <h1 class="title is-2 is-pink is-uppercase">Soin saisonnier</h1>
             <div class="divider is-centered"></div>
         </div>  
         <div class="ido-content has-text-centered">
-            Ce programme de soin complet active de l'intérieur le renouvellement cellulaire de la peau avec un peeling intensif.Ce soin agit de façon ciblé selon les probèmes cutanés de votre peau.
+            En édition limitée
         </div>
-        {{range $index, $element := $soinsdermato }} 
+        {{range $index, $element := $soinssaison }} 
         {{ if (eq (mod $index 2) 0) }}
         <div class=".content-wrapper-ss">
             <div class="columns">

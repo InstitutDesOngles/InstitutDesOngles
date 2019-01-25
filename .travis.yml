@@ -26,6 +26,6 @@ deploy:
   keep-history: true
   local-dir: public
   ##target_branch: gh_pages  # branch contains blog content
-  target_branch: test  # branch contains blog content
+  target_branch: gh-pages  # branch contains blog content
   on:
     branch: dev  # branch contains Hugo generator code    

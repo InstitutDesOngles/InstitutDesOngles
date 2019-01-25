@@ -1,7 +1,7 @@
 soins: 
   - title: Hammam
     duration: 20
-    price: 25€
+    price: 25
   - title: Gommage relaxant
     subtitle: Tout le corps
     duration: 30

@@ -42,19 +42,3 @@ saisonnier :
   - title: Anti-âge
     duration: 1h30
     price: 95     
-dermato:
-  - title: Sécheresse
-    duration: 1h15
-    price: 75
-  - title: Impuretés
-    duration: 1h15
-    price: 65
-  - title: Rougeurs
-    duration: 1h15
-    price: 75
-  - title: Impuretés
-    duration: 45 min
-    price: 45
-  - title: Pigmentation
-    duration: 1h15
-    price: 75
