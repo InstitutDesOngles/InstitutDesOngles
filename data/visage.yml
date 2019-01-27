@@ -15,7 +15,7 @@ soins:
     duration: 1h15
     price: 70     
     style: card-pink
-  - title: Luménéclat
+  - title: Luminéclat
     subtitle: Un soin qui revitalise instantanément la peau fatiguée, aide à estomper les premiers signes de l’âge et procure un éclat de jeunesse.
     duration: 1h15
     price: 75     
