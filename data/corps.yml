@@ -26,5 +26,5 @@ soins:
     price: 95
 offers: 
   - title: Cure Silouhette
-    details: 10 modelages achetés + 2 soins complets offerts + 1 produit corps offert
+    subtitle: 10 modelages achetés + 2 soins complets offerts + 1 produit corps offert
     price : 550
