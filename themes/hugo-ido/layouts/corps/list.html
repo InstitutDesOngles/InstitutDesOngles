@@ -43,6 +43,9 @@
                   <span class="separator"></span>
                   <span class="price is-brown">{{ .price }}€</span>
                 </div>
+                {{ if .subtitle }} 
+                  <div class="price-subtitle">{{ .subtitle }}</div>
+                {{ end }}
                 {{ end }}
               </div>
               
