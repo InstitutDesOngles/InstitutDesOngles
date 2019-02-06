@@ -11,12 +11,16 @@
 .home-section-1  
   margin-top: 50%
   background: #bdbcb1d6
-  max-height: 550px
+  
   padding: 3rem
+  +desktop-only
+    max-height: 550px
   +tablet-only
     max-height: 600px
   +mobile
-    max-height: 1100px
+    padding: 2rem 2rem 0rem 2rem
+    margin-bottom: 1rem
+    margin-top: 60%
 
 .home-section-1-1  
   margin-top: 40%
@@ -254,13 +258,11 @@
 .home-logo-img
   z-index: 1
   width: 400px
-  margin-left: -200px
+  margin-left: auto
   +mobile
     width: 160px
-    margin-left: -80px
   +tablet-only
     width: 300px
-    margin-left: -150px
 
 
 .ido-box
