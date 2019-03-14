@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Institut des Ongles &amp; beauté Toulouse</title>
-    <link>http://www.institutdesongles.fr/categories/</link>
+    <link>https://www.institutdesongles.fr/categories/</link>
     <description>Recent content in Categories on Institut des Ongles &amp; beauté Toulouse</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
     
-	<atom:link href="http://www.institutdesongles.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.institutdesongles.fr/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

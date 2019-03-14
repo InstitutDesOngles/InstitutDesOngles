@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.institutdesongles.fr/</loc>
+    <loc>https://www.institutdesongles.fr/</loc>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/categories/</loc>
+    <loc>https://www.institutdesongles.fr/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/contact/</loc>
+    <loc>https://www.institutdesongles.fr/contact/</loc>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/corps/</loc>
+    <loc>https://www.institutdesongles.fr/corps/</loc>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/epilation/</loc>
+    <loc>https://www.institutdesongles.fr/epilation/</loc>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/ongles/</loc>
+    <loc>https://www.institutdesongles.fr/ongles/</loc>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/tags/</loc>
+    <loc>https://www.institutdesongles.fr/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.institutdesongles.fr/visage/</loc>
+    <loc>https://www.institutdesongles.fr/visage/</loc>
   </url>
   
 </urlset>
