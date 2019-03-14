@@ -1,29 +1,41 @@
 soins: 
+  - title:
   - title: Hammam
     duration: 20
     price: 25
+    style: card-silver
   - title: Gommage relaxant
-    subtitle: Tout le corps
+    description: Tout le corps
     duration: 30
     price: 32
+    style: card-pink 
   - title: Modelage relaxant
-    subtitle: Face avant ou face arrière du corps
+    description: Face avant ou face arrière du corps
     duration: 30
     price: 35
-  - title: Instant de plénitude (sans gommage corps)
-    subtitle : Faites-vous dorloter avec un soin relaxant et tonifiant pour tout le corps qui vous fera oublier le tumulte de la vie quotidienne.
+    style: card-pink 
+  - title: Instant de plénitude 
+    subtitle: sans gommage corps
+    description : Faites-vous dorloter avec un soin relaxant et tonifiant pour tout le corps qui vous fera oublier le tumulte de la vie quotidienne.
     duration: 1h
     price: 65
-  - title: Instant de plénitude (avec gommage corps)
+    style: card-brown
+  - title: Instant de plénitude
+    subtitle: avec gommage corps 
     duration: 1h30
     price: 95
-  - title: Soin silouhette (modelage)
-    subtitle: "Des soins ciblés minceur, anti-cellulite, pour chaque zone du corps : ventre, fesses, jambes."
+    style: card-brown
+  - title: Soin silouhette 
+    subtitle: modelage
+    description: "Des soins ciblés minceur, anti-cellulite, pour chaque zone du corps : ventre, fesses, jambes."
     duration: 45
     price: 55
-  - title: Soin silouhette (complet avec gommage et enveloppement)
+    style: card-silver
+  - title: Soin silouhette 
+    subtitle : complet avec gommage et enveloppement
     duration: 1h30
     price: 95
+    style: card-pink 
 offers: 
   - title: Cure Silouhette
     subtitle: 10 modelages achetés + 2 soins complets offerts + 1 produit corps offert
