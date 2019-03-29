@@ -36,6 +36,25 @@ $(document).ready(function(){
         });
     }
 
+
+     //Modal toggle
+     if ($('.modal-toggle').length) {
+        $('.modal-toggle').on("click", function(){
+            var modal_id = $(this).attr('data-target');
+            $("#"+modal_id).toggleClass('is-active');
+        });
+    }
+    if ($('.modal-hide').length) {
+        $('.modal-hide').on("click", function(){
+            $('.modal').each(function (index, value) {
+                $(this).removeClass('is-active');
+            });
+        });
+    }
+    
+
+
+
     //Init feather icons
     feather.replace();
 

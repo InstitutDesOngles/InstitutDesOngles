@@ -26,3 +26,15 @@ Hero styles
         height: 70px;
     }
 }
+
+.modal-card-body{
+    p {
+        margin-bottom : 1rem;
+    }
+    ul{
+        list-style: disc;
+    }
+    li{
+        margin: 0 0 0.5rem 2rem
+    }
+}
