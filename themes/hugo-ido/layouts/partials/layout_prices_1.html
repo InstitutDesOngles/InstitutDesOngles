@@ -26,6 +26,7 @@
             {{ end }}
                     {{ if .title }}
 
+                    {{ if .description }}
                     <div id="modal-prices-1-{{ $index}}" class="modal">
                         <div class="modal-background"></div>
                         <div class="modal-card">
@@ -41,15 +42,22 @@
                             </footer>
                         </div>
                     </div>
-
+                    {{ end }}
 
                     <div class="column is-one-third" >
                         <div class="ido-card has-text-centered delay-1 {{ .style }} modal-toggle" data-target="modal-prices-1-{{ $index}}">
                             <div class="card-text">
                                 <h4 class="subtitle is-5">{{ .title }}</h4>
                                 <div class="divider is-centered has-space"></div>
-                                <h4 class="is-white subtitle is-6">{{ .duration }} &nbsp;<i class="far fa-clock"></i></h4>
-                                <h4 class="is-white subtitle is-6">{{ .price }} &nbsp;<i class="fas fa-euro-sign"></i></h4>
+                                <h4 class="is-white subtitle is-7">
+                                {{ .shortdescription }}
+                                </h4>
+                                <div class="divider is-centered has-space"></div>
+                                <h4 class="is-white subtitle is-6">
+                                    <span>{{ .duration }} &nbsp;<i class="far fa-clock"></i></span>
+                                    <span>&nbsp;&nbsp;&nbsp;</span>
+                                    <span>{{ .price }} &nbsp;<i class="fas fa-euro-sign"></i></span>
+                                </h4>
                             </div>
                         </div>
                     </div>
