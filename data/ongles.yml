@@ -26,7 +26,7 @@ hand:
     price: 7
   - title: Renfort ongles pour manucure ou vernis semi-permanent
     price: 5
-  - title: Supplément French
+  - extra: Supplément French
     price: 3   
 foot:    
   - title: Minipédi
@@ -38,3 +38,5 @@ foot:
   - title: Pédi Luxe
     subtitle: pédi calliosité + massage
     price: 49
+  - extra: Supplément French
+    price: 3

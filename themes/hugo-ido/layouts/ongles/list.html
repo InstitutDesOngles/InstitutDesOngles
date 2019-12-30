@@ -16,13 +16,20 @@
               <div class="column is-two-thirds">
                 <h2 class="price-title has-left-padding is-pink is-uppercase">Beauté des mains</h2>
                 {{range $index, $element := $nailshand }}
+                {{ if .title }} 
                 <div class="prices">
-                  <span class="name">{{ .title }}</span
-                  ><span class="separator"></span
-                  ><span class="price is-pink">{{ .price }}€</span>
+                  <span class="name">{{ .title }}</span>
+                  <span class="separator"></span>
+                  <span class="price is-pink">{{ .price }}€</span>
                 </div>
+                {{ end }}
                 {{ if .subtitle }} 
                   <div class="price-subtitle">{{ .subtitle }}</div>
+                {{ end }}
+                {{ if .extra }} 
+                <div class="extras">
+                    <span class="extra is-pink">{{ .extra }} {{ .price }}€</span>
+                  </div>
                 {{ end }}
 
                 {{ end }}
@@ -41,12 +48,26 @@
               <div class="column is-two-thirds">
                 <h2 class="price-title has-left-padding is-brown is-uppercase">Beauté des pieds</h2>
                 {{range $index, $element := $nailsfoot }}
+                
+                {{ if .title }} 
                 <div class="prices">
                   <span class="name">{{ .title }}</span>
                   <span class="separator"></span>
                   <span class="price is-brown">{{ .price }}€</span>
                 </div>
                 {{ end }}
+                {{ if .subtitle }} 
+                  <div class="price-subtitle">{{ .subtitle }}</div>
+                {{ end }}
+                {{ if .extra }} 
+                <div class="extras">
+                  <span class="extra is-pink">{{ .extra }} {{ .price }}€</span>
+                </div>
+                {{ end }}
+
+                {{ end }}
+
+
               </div>
               
             </div>

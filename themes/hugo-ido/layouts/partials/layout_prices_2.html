@@ -14,9 +14,14 @@
                   {{range $index, $element := .sec1prices }}
                   {{ if .title }}
                   <div class="prices">
-                    <span class="name">{{ .title }}{{ if .subtitle }} ({{ .subtitle }} ){{ end }}</span
-                    ><span class="separator"></span
-                    ><span class="price is-pink">{{ .price }}€</span>
+                    <span class="name">{{ .title }}
+                      {{ if or (.subtitle) (.duration) }} 
+                        (
+                          {{ if .subtitle }}{{ .subtitle }}{{ end }}{{ if .duration }}{{ if .subtitle }}.{{ end }} {{.duration }}{{ end }}
+                        )
+                      {{ end }}
+                    </span><span class="separator"></span>
+                    <span class="price is-pink">{{ .price }}€</span>
                   </div>
                   {{ if .description }}
                     <div class="price-subtitle">{{ .description }}</div>

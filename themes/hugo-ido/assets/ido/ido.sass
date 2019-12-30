@@ -39,11 +39,11 @@
     margin: 0 0px 0px 5px
 
 // Prices
-.prices
+.prices, .extras
   padding: 20px 10px 0px 10px
   display: flex
   justify-content: space-between
-  font-size: 1.8rem
+  font-size: 1.7rem
   +mobile
     font-size: 0.9rem
   > .name
@@ -54,6 +54,13 @@
     flex-grow: 1
     margin: 10px 10px 1.3rem
   > .price
+    padding : 10px
+    text-align: right
+
+.extras
+  justify-content: end
+  padding: 10px 10px 0px 10px
+  > .extra
     padding : 10px
     text-align: right
 

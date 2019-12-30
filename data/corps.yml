@@ -6,12 +6,12 @@ soins:
     style: card-silver
   - title: Gommage relaxant
     description: Tout le corps
-    duration: 30
+    duration: 30 min
     price: 32
     style: card-pink 
   - title: Modelage relaxant
     description: Face avant ou face arrière du corps
-    duration: 30
+    duration: 30 min
     price: 35
     style: card-pink 
   - title: Instant de plénitude 
@@ -28,7 +28,7 @@ soins:
   - title: Soin silouhette 
     subtitle: modelage
     description: "Des soins ciblés minceur, anti-cellulite, pour chaque zone du corps : ventre, fesses, jambes."
-    duration: 45
+    duration: 45 min
     price: 55
     style: card-silver
   - title: Soin silouhette 
