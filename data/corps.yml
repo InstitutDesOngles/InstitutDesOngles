@@ -1,7 +1,7 @@
 soins: 
   - title:
   - title: Hammam
-    duration: 20
+    duration: 20 min
     price: 25
     style: card-silver
   - title: Gommage relaxant
