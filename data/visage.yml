@@ -1,0 +1,99 @@
+soins:
+  - title:
+  - title: D-Tox peau neuve (45min)
+    subtitle: Nettoie et détoxifie en profondeur pour une peau visiblement purifiée et éclatant
+    duration: 45min
+    price: 45
+    shortdescription: "Nettoie et détoxifie en profondeur pour une peau visiblement purifiée et éclatante"
+    description: >
+      Un nouveau soin de nettoyage de peau en profondeur, 100% manuel et adapté à toutes le conditions de peaux. Il respecte l’écosystème cutané et apporte une efficacité prouvée en 30 minutes de soin seulement.
+
+
+      Ce soin disponible exclusivement en institut nettoie en profondeur tout en respectant la peau. Les nouveaux produits, inspirés des dernières recherches en dermatologie, éliminent les cellules mortes, absorbent les impuretés et désincrustent les pores. Ils stimulent le renouvellement cellulaire tout en préservant l’intégrité de l’écosystème cutané.
+      Ce protocole beauté unique permet à la peau de respirer à nouveau.
+      of this post
+
+
+      * La peau apparaît plus éclatante : 100%
+
+      * Les imperfections apparaissent réduites : 100%
+
+      * La peau se sent purifiée : 100%
+
+      * La peau se sent comme détoxifiée : 100%*
+
+
+      \*Indicateur de pur éclat : résultats d’un test réalisé sur 20 personnes (femmes et hommes âgés entre 20 et 50 ans) ayant bénéficié d’un traitement D-TOX PEAU NEUVE sous contrôle dermatologique. Moyenne des résultats individuels faisant état d’une peau plus éclatante, des imperfections apparaissant et de la sensation d’une peau purifiée et comme détoxifiée. Résultats exprimés en %.
+
+    style: card-silver
+  - title: Soin cocon
+    subtitle: Un soin bien-être qui efface tous les signes de stress. La peau est détendue, apaisée et éclatante.
+    duration: 1h15
+    price: 65
+    style: card-pink
+    shortdescription: "Un soin bien-être qui efface tous les signes de stress. La peau est détendue, apaisée et éclatante."
+    description: >
+      Un soin bien-être qui efface tous les signes de stress. La peau est détendue, apaisée et éclatante.
+
+
+      Ce masque mousse merveilleusement doux enveloppe le visage d’un cocon, procurant ainsi une sensation profonde de détente et de bien-être. Ce soin apaisant et revitalisant convient à tous les types de peaux. Nourrissant profondément la peau, il l’apaise et la lisse. L’effet cocon de ce soin vous aide à vous relaxer, à vous déconnecter du monde extérieur et des occupations quotidiennes et ainsi, à puiser une nouvelle énergie.
+
+       * Apaisement et revitalisation intense
+
+       * Masque mousse doux
+
+       * Profonde détente
+
+  - title: Soin Thalasso
+    subtitle: Un soin énergie, à base d’algues spiruline, qui hydrate, tonifie et réénergise la peau
+    duration: 1h15
+    price: 70
+    style: card-pink
+    shortdescription: "Un soin énergie, à base d’algues spiruline, qui hydrate, tonifie et réénergise la peau."
+    description: >
+      Un soin énergie, à base d’algues spiruline, qui hydrate, tonifie et réénergise
+
+
+      Ce masque rafraîchissant et revitalisant aux algues marines qui apporte à la peau une hydratation intense. Les peaux sèches, qui se caractérisent par une sensation d’inconfort et un fort besoin d’hydratation, bénéficient particulièrement de cette action hydratante hautement concentrée et durable. Rafraîchissant, ce soin donne également du tonus à la peau. Convient à toutes les peaux, mais en particulier aux peaux sèches et déshydratées.
+
+      * Masque rafraîchissant aux algues marines
+
+      * Action hydratante hautement concentrée
+
+      * Tonifie la peau
+
+  - title: Luminéclat
+    subtitle: Un soin qui revitalise instantanément la peau fatiguée, aide à estomper les premiers signes de l’âge et procure un éclat de jeunesse.
+    duration: 1h15
+    price: 75
+    style: card-brown
+    shortdescription: "Un soin qui revitalise instantanément la peau fatiguée, aide à estomper les premiers signes de l’âge et procure un éclat de jeunesse."
+    description: >
+      Un soin qui revitalise instantanément la peau fatiguée, aide à estomper les premiers signes de l’âge et procure un éclat de jeunesse.
+
+      Ce soin lisse les rides et ridules et affine le teint. Le résultat la peau paraît plus lisse, révélant une nouvelle luminosité et un éclat plein de fraîcheur et de jeunesse. Les femmes habituées à vivre tambour battant apprécieront le moment de sérénité offert par ce soin et cette nouvelle énergie.
+  - title: Lift'expert
+    subtitle: Soin lifting avec modelage innovant qui repulpe et raffermit la peau instantanément. Les rides sont estompées et les contours des yeux redéfinis.
+    duration: 1h15
+    price: 80
+    style: card-silver
+    shortdescription: "Soin lifting avec modelage innovant qui repulpe et raffermit la peau instantanément. Les rides sont estompées et les contours des yeux redéfinis."
+  - title: Modelant
+    subtitle: Le soin iconique ultra personnalisé à l’effet lifting spectaculaire. La peau est visiblement plus jeune, les traits du visage sont redéfinis, la peau est plus dense et le teint est éclatant.
+    duration: 1h30
+    price: 89
+    style: card-brown
+    shortdescription: "Le soin iconique ultra personnalisé à l’effet lifting spectaculaire. La peau est visiblement plus jeune, les traits du visage sont redéfinis, la peau est plus dense et le teint est éclatant."
+  - title: Mille lumières
+    subtitle: "Un soin alliant luxe suprême et jeunesse globale ciblant tous les signes de l’âge : densité, fermeté, rides lissées, hydratation, nutrition."
+    duration: 1h30
+    price: 100
+    style: card-silver
+    shortdescription: "Un soin alliant luxe suprême et jeunesse globale ciblant tous les signes de l’âge : densité, fermeté, rides lissées, hydratation, nutrition."
+saisonnier :
+  - title: Eclat
+    duration: 45 min
+    price: 49
+  - title: Anti-âge
+    duration: 1h30
+    price: 95     

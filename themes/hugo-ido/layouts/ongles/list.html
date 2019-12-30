@@ -1,0 +1,94 @@
+{{ define "main" }} {{- $nailshand := .Site.Data.ongles.hand }}
+{{- $nailsfoot := .Site.Data.ongles.foot }}
+<section class="home is-fullheight is-default">
+  <div class="home-body">
+    <div class="home-logo">
+      <img class="full-width" src="../images/ongles/ongles-1.jpg" />
+    </div>
+    <div class="container-full-width">
+      <div class="home-logo-container">
+        <div class="epil-logo-container">
+          <div class="left-content">
+            <h2 class="is-uppercase is-white">Ongles</h2>
+          </div>
+          <div class="price-box is-center card-white">
+            <div class="columns">
+              <div class="column is-two-thirds">
+                <h2 class="price-title has-left-padding is-pink is-uppercase">Beauté des mains</h2>
+                {{range $index, $element := $nailshand }}
+                <div class="prices">
+                  <span class="name">{{ .title }}</span
+                  ><span class="separator"></span
+                  ><span class="price is-pink">{{ .price }}€</span>
+                </div>
+                {{ if .subtitle }} 
+                  <div class="price-subtitle">{{ .subtitle }}</div>
+                {{ end }}
+
+                {{ end }}
+              </div>
+              <div class="column is-one-third is-hidden-mobile">
+                  <img class="full-width price-picture" src="../images/ongles/ongles-2.jpg" />
+                  <img class="full-width price-picture" src="../images/ongles/ongles-3.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="price-box is-center card-white">
+            <div class="columns">
+                <div class="column is-one-third is-hidden-mobile">
+                    <img class="full-width price-picture" src="../images/ongles/ongles-2.jpg" />
+                </div>
+              <div class="column is-two-thirds">
+                <h2 class="price-title has-left-padding is-brown is-uppercase">Beauté des pieds</h2>
+                {{range $index, $element := $nailsfoot }}
+                <div class="prices">
+                  <span class="name">{{ .title }}</span>
+                  <span class="separator"></span>
+                  <span class="price is-brown">{{ .price }}€</span>
+                </div>
+                {{ end }}
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="maria is-fullheight">
+  <div class="columns">
+    <div class="column is-two-thirds" style="display: flex;">
+      <div class="subtitle is-uppercase title is-3 is-brown" style="align-self: end;">
+          Retrouvez aussi... 
+      </div>  
+    </div>  
+    <div class="column is-one-third">
+        <div class="is-uppercase title is-3 is-brown">
+            <img class="full-width price-picture" src="../images/ongles/maria.svg" />
+        </div>  
+      </div> 
+  </div> 
+
+</section>
+<section class=" is-fullheight">
+  <div class="home-logo">
+      <img class="full-width" src="../images/ongles/ongles-4.jpg" />
+  </div>
+  <div class="columns maquillage">
+      <div class="column is-two-thirds">
+        <div class="subtitle is-uppercase" >
+          <div>
+            Nos plus : la marque Maria Galland vous
+          </div>
+          <div>propose sa gamme de maquillage,</div>
+          <div>disponible dans notre institut.</div>
+          <div>
+            <a href="https://www.maria-galland.fr" class="button btn-align-md accent-btn raised">Visiter</a>
+          </div>
+        </div>  
+      </div>  
+  </div>    
+</section>
+
+{{ end }}
