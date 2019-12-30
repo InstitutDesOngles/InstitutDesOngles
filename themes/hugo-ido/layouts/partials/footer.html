@@ -1,0 +1,68 @@
+{{- $institut := .Site.Data.institut }} 
+{{- $footer := .Site.Params.footer }} 
+{{- $logo := .Site.Data.institut.logos.white }} 
+{{- $socialMedia := index $institut "socialmedia" }}
+{{- $phone := index $institut "phone" }}
+<footer class="footer footer-dark">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-hidden-mobile">
+        <div class="footer-logo">
+          <img src="{{ printf "images/logos/%s" $logo | relURL }}">
+        </div>
+      </div>
+      <!-- contact-->
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header is-pink">
+            <h3>Contact</h3>
+          </div>
+          <div>
+            <h3 class="footer-content">Sur rendez-vous au</h3>
+            <a class="is-pink" href="tel:{{ $phone.number }}">{{ $phone.display }}</a>
+          </div>
+          <div class="footer-content">
+            L’institut est ouvert
+            <ul class="link-list">
+              <li>
+                - du mardi au samedi
+              </li>
+              <li>
+                - de 10h à 20h
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- social networks -->
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3>Nous suivre</h3>
+            <nav class="level is-mobile">
+              <div class="level-left">
+                {{- range $socialMedia }}
+                <a class="level-item" href="{{ .link }}">
+                  <span class="icon">
+                    <i class="fa fa-{{ .icon }}"></i>
+                  </span>
+                </a>
+                {{- end }}
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!--map -->
+      <div class="column">
+        <div class="footer-column">
+          <div class="footer-header">
+            <h3>Nous trouver</h3>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11556.393937037603!2d1.451339!3d43.604491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb85263718f460aed!2sInstitut+des+Ongles+%26+beaut%C3%A9!5e0!3m2!1sfr!2sfr!4v1546108198362"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,55 @@
+{{ define "main" }} 
+{{- $epilationwoman := .Site.Data.epilation.woman }}
+{{- $epilationmen := .Site.Data.epilation.men }}
+<section class="home is-fullheight is-default">
+  <div class="home-body">
+    <div class="home-logo">
+      <img class="full-width" src="../images/epilation/epilation-1.jpg" />
+    </div>
+    <div class="container-full-width">
+      <div class="home-logo-container">
+        <div class="epil-logo-container">
+          <div class="left-content">
+            <h2 class="is-uppercase">Épilation H/F</h2>
+            <h3 class="ido-card card-brown is-white">
+              À la cire, au Caramel et au fil
+            </h3>
+          </div>
+          <div>
+            <img
+              class="caramel is-hidden-mobile"
+              src="../images/epilation/epilation-caramel.png"
+            />
+          </div>
+          <div class="price-box is-right card-light-brown">
+            <h2 class="price-title is-pink is-uppercase">Femme</h2>
+            <div class="prices">
+              <span class="subtitle is-pink">Au caramel +5€</span>
+            </div>
+            <div class="prices">
+              <span class="subtitle is-pink">Au fil +3€</span>
+            </div>
+            {{range $index, $element := $epilationwoman }}
+            <div class="prices">
+              <span class="name">{{ .title }}</span>
+              <span class="separator"></span>
+              <span class="price is-pink">{{ .price }}€</span>
+            </div>
+            {{ end }}
+          </div>
+               <div class="price-box is-left card-light-white">
+                <h2 class="price-title is-brown is-uppercase">Homme</h2>
+                {{range $index, $element := $epilationmen }}
+                <div class="prices">
+                  <span class="name">{{ .title }}</span
+                  ><span class="separator"></span
+                  ><span class="price is-brown">{{ .price }}€</span>
+                </div>
+                {{ end }}
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

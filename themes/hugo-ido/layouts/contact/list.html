@@ -1,0 +1,41 @@
+{{ define "main" }} 
+{{- $logo := .Site.Data.institut.logos.black }} 
+{{- $institut := .Site.Data.institut }} 
+{{- $phone := index $institut "phone" }}
+{{- $nailsfoot := .Site.Data.ongles.foot }}
+
+<section class="home is-fullheight is-default">
+  <div class="home-body">
+    <div class="home-logo">
+      <img class="full-width" src="../images/contact/contact-1.jpg" />
+    </div>
+    <div class="container-full-width">
+      <div class="home-logo-container">
+        <div class="epil-logo-container">
+          <div class="left-content">
+            <h2 class="is-uppercase is-white">Contact</h2>
+          </div>
+          <div class="price-box is-center card-white">
+            <div class="columns">
+              <div class="column is-one-third is-hidden-mobile">
+                    <img src="{{ printf "images/logos/%s" $logo | relURL }}">
+              </div>
+              <div class="column is-two-thirds " style="align-self: center;">
+                  <div class="subtitle rdv-1 is-brown">Prendre rendez vous</div>
+                  <div class="subtitle rdv-2 is-pink"> <a class="is-pink" href="tel:{{ $phone.number }}">{{ $phone.display }}</a></div>
+                  <div class="subtitle is-4 is-brown">L’institut est ouvert du mardi au samedi de 10h à 20h</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="is-fullheight" style="margin-top:40px">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11556.393937037603!2d1.451339!3d43.604491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb85263718f460aed!2sInstitut+des+Ongles+%26+beaut%C3%A9!5e0!3m2!1sfr!2sfr!4v1548360263532" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+</section>
+
+
+{{ end }}
