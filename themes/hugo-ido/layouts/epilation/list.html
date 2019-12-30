@@ -1,4 +1,5 @@
-{{ define "main" }} {{- $epilationwoman := .Site.Data.epilation.woman }}
+{{ define "main" }} 
+{{- $epilationwoman := .Site.Data.epilation.woman }}
 {{- $epilationmen := .Site.Data.epilation.men }}
 <section class="home is-fullheight is-default">
   <div class="home-body">
@@ -22,11 +23,17 @@
           </div>
           <div class="price-box is-right card-light-brown">
             <h2 class="price-title is-pink is-uppercase">Femme</h2>
+            <div class="prices">
+              <span class="subtitle is-pink">Au caramel +5€</span>
+            </div>
+            <div class="prices">
+              <span class="subtitle is-pink">Au fil +3€</span>
+            </div>
             {{range $index, $element := $epilationwoman }}
             <div class="prices">
-              <span class="name">{{ .title }}</span
-              ><span class="separator"></span
-              ><span class="price is-pink">{{ .price }}€</span>
+              <span class="name">{{ .title }}</span>
+              <span class="separator"></span>
+              <span class="price is-pink">{{ .price }}€</span>
             </div>
             {{ end }}
           </div>
