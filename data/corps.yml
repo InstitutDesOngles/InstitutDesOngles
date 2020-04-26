@@ -25,18 +25,18 @@ soins:
     duration: 1h30
     price: 95
     style: card-brown
-  - title: Soin silouhette 
+  - title: Soin silhouette 
     subtitle: modelage
     description: "Des soins ciblés minceur, anti-cellulite, pour chaque zone du corps : ventre, fesses, jambes."
     duration: 45 min
     price: 55
     style: card-silver
-  - title: Soin silouhette 
+  - title: Soin silhouette 
     subtitle : complet avec gommage et enveloppement
     duration: 1h30
     price: 95
     style: card-pink 
 offers: 
-  - title: Cure Silouhette
+  - title: Cure silhouette
     subtitle: 10 modelages achetés + 2 soins complets offerts + 1 produit corps offert
     price : 550
