@@ -1,7 +1,7 @@
 {{ define "main" }} 
 {{- $corps := .Site.Data.corps.soins }}
-{{- $offers := .Site.Data.corps.offers }}
+{{- $offers := .Site.Data.corps.cils }}
 
-{{ partial "layout_prices_2.html" (dict "title1" "Corps" "imgheader" "../images/corps/corps-1.jpg" "sec1prices" $corps "sec2prices" $offers "tittle2" "Pack" ) }}
+{{ partial "layout_prices_2.html" (dict "title1" "Corps" "imgheader" "../images/corps/corps-1.jpg" "sec1prices" $corps "title2" "Cils" "sec2prices" $offers "tittle2" "Pack" ) }}
 
 {{ end }}

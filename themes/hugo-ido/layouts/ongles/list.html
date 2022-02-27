@@ -1,5 +1,7 @@
-{{ define "main" }} {{- $nailshand := .Site.Data.ongles.hand }}
+{{ define "main" }} 
+{{- $nailshand := .Site.Data.ongles.hand }}
 {{- $nailsfoot := .Site.Data.ongles.foot }}
+{{- $nailsextra := .Site.Data.ongles.extra }}
 <section class="home is-fullheight is-default">
   <div class="home-body">
     <div class="home-logo">
@@ -20,7 +22,13 @@
                 <div class="prices">
                   <span class="name">{{ .title }}</span>
                   <span class="separator"></span>
+                  {{ if .price }} 
                   <span class="price is-pink">{{ .price }}€</span>
+                  {{ end }}
+                  {{ if .freeprice }} 
+                  <span class="price is-pink">{{ .freeprice }}</span>
+                  {{ end }}
+
                 </div>
                 {{ end }}
                 {{ if .subtitle }} 
@@ -36,14 +44,13 @@
               </div>
               <div class="column is-one-third is-hidden-mobile">
                   <img class="full-width price-picture" src="../images/ongles/ongles-2.jpg" />
-                  <img class="full-width price-picture" src="../images/ongles/ongles-3.jpg" />
               </div>
             </div>
           </div>
           <div class="price-box is-center card-white">
             <div class="columns">
                 <div class="column is-one-third is-hidden-mobile">
-                    <img class="full-width price-picture" src="../images/ongles/ongles-2.jpg" />
+                    <img class="full-width price-picture" src="../images/ongles/ongles-3.jpg" />
                 </div>
               <div class="column is-two-thirds">
                 <h2 class="price-title has-left-padding is-brown is-uppercase">Beauté des pieds</h2>
@@ -66,12 +73,45 @@
                 {{ end }}
 
                 {{ end }}
-
-
-              </div>
-              
+              </div>            
             </div>
           </div>
+
+          <!-- Extra-->
+          <div class="price-box is-center card-white">
+            <div class="columns">
+              <div class="column is-two-thirds">
+                <h2 class="price-title has-left-padding is-pink is-uppercase">Extra</h2>
+                {{range $index, $element := $nailsextra }}
+                {{ if .title }} 
+                <div class="prices">
+                  <span class="name">{{ .title }}</span>
+                  <span class="separator"></span>
+                  {{ if .price }} 
+                  <span class="price is-pink">{{ .price }}€</span>
+                  {{ end }}
+                  {{ if .freeprice }} 
+                  <span class="price is-pink">{{ .freeprice }}</span>
+                  {{ end }}
+                </div>
+                {{ end }}
+                {{ if .subtitle }} 
+                  <div class="price-subtitle">{{ .subtitle }}</div>
+                {{ end }}
+                {{ if .extra }} 
+                <div class="extras">
+                    <span class="extra is-pink">{{ .extra }} {{ .price }}€</span>
+                  </div>
+                {{ end }}
+
+                {{ end }}
+              </div>
+              <div class="column is-one-third is-hidden-mobile">
+                  <img class="full-width price-picture" src="../images/ongles/ongles-2.jpg" />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

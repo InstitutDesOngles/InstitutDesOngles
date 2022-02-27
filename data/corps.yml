@@ -4,39 +4,47 @@ soins:
     duration: 20 min
     price: 25
     style: card-silver
-  - title: Gommage relaxant
-    description: Tout le corps
-    duration: 30 min
-    price: 32
-    style: card-pink 
-  - title: Modelage relaxant
-    description: Face avant ou face arrière du corps
+  - title: Soin exfoliant sublime
+    description: Ce massage exfoliant doux favorise la détoxification de la peau et le renouvellement de l'énergie pour un nouveau départ.
     duration: 30 min
     price: 35
     style: card-pink 
-  - title: Instant de plénitude 
-    subtitle: sans gommage corps
-    description : Faites-vous dorloter avec un soin relaxant et tonifiant pour tout le corps qui vous fera oublier le tumulte de la vie quotidienne.
+  - title: Mini soin suprême
+    duration: 30 min
+    price: 35
+    style: card-pink 
+  - title: Soin suprême énergisant 
+    description : Ce massage équilibrant et stimulant offre une recharge d'énergie positive pour le corps et l'esprit.
     duration: 1h
     price: 65
     style: card-brown
-  - title: Instant de plénitude
-    subtitle: avec gommage corps 
+  - title: Soin suprême énergisant 
+    subtitle: Ce massage équilibrant et stimulant offre une recharge d'énergie positive pour le corps et l'esprit.
     duration: 1h30
     price: 95
     style: card-brown
-  - title: Soin silhouette 
+  - title: Soin suprême relaxant
     subtitle: modelage
-    description: "Des soins ciblés minceur, anti-cellulite, pour chaque zone du corps : ventre, fesses, jambes."
-    duration: 45 min
-    price: 55
+    description: "Ce massage chaleureux, réconfortant et relaxant offre une détente profonde pour rétablir un flux d'énergie paisible."
+    duration: 1h min
+    price: 65
     style: card-silver
-  - title: Soin silhouette 
-    subtitle : complet avec gommage et enveloppement
+  - title: Soin suprême relaxant
+    description: "Ce massage chaleureux, réconfortant et relaxant offre une détente profonde pour rétablir un flux d'énergie paisible."
     duration: 1h30
     price: 95
     style: card-pink 
-offers: 
-  - title: Cure silhouette
-    subtitle: 10 modelages achetés + 2 soins complets offerts + 1 produit corps offert
-    price : 550
+cils: 
+  - title: Teinture de cils ou sourcils
+    price : 15
+  - title: Réhaussement de cils
+    price : 49
+  - title: Réhaussement de cils + teinture
+    price : 59
+  - title: Extensions de cils
+    price : 80
+  - title: Remplissage de cils
+    price : 50  
+  - title: Dépose d’extensions de cils
+    price : 15
+
