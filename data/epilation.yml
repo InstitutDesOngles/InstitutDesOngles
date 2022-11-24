@@ -1,26 +1,26 @@
 woman: 
   - title: Sourcils définition ligne
-    price: 14
+    price: 15
   - title: Sourcils entretien
-    price: 9
+    price: 10
   - title: Lèvres / menton / zone supplémentaire
     price: 7
   - title: Maillot simple
     price: 12
   - title: Maillot brésilien
-    price: 15
+    price: 17
   - title: Maillot intégral/semi-intégral
-    price: 23
+    price: 25
   - title: Aisselles
-    price: 11
-  - title: Demi-bras
-    price: 12
-  - title: Bras / demi-jambes / cuisses
-    price: 16
+    price: 13
+  - title: Bras
+    price: 20
+  - title: Demi Bras / demi-jambes / cuisses
+    price: 18
   - title: 3/4 jambes
     price: 19
   - title: Jambes entières
-    price: 23
+    price: 25
   
 men:
   - title: Visage
