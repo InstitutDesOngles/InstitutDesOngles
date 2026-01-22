@@ -1,0 +1,8 @@
+name = "hugo-celiab"
+license = "MIT"
+licenselink = "https://github.com/celiab/hugo-celiab/blob/master/LICENSE"
+description = "Theme Hugo pour Célia.B Institut de Beauté - Institut des Ongles Toulouse"
+
+[author]
+  name = "Célia.B - Institut des Ongles"
+  homepage = "https://www.institutdesongles.fr/"

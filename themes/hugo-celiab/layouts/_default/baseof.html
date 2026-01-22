@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    {{- partial "meta.html" . -}}
+    {{- partial "analytics.html" . -}}
+    {{- partial "css.html" . -}}
+  </head>
+  <body class="antialiased selection:bg-primary selection:text-white">
+    <div class="halo w-96 h-96 bg-primary top-0 -left-24"></div>
+    <div class="halo w-[420px] h-[420px] bg-secondary bottom-0 right-0"></div>
+    <div class="halo w-72 h-72 bg-accent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+
+    {{- partial "navbar.html" . -}}
+
+    <main>
+      {{- block "main" . }}{{- end }}
+    </main>
+
+    {{- partial "footer.html" . -}}
+    {{- partial "javascript.html" . -}}
+  </body>
+</html>

@@ -1,0 +1,33 @@
+social:
+  instagram: "https://www.instagram.com/celiab_institut/"
+
+histoire:
+  titre: "Notre Histoire"
+  intro: "Une passion devenue vocation"
+  paragraphes:
+    - "Passionnée par l'univers de la beauté et du bien-être depuis toujours, Célia a transformé sa passion en vocation. Après une formation approfondie et plusieurs années d'expérience dans des instituts renommés, elle a décidé de créer son propre espace dédié à la beauté."
+    - "En 2018, Célia.B Colombette ouvre ses portes au coeur de Toulouse, rue de la Colombette. Un lieu chaleureux où chaque cliente est accueillie avec attention et bienveillance."
+    - "Fort du succès de ce premier institut, Célia.B Victor Hugo voit le jour en 2021, permettant d'offrir nos services à encore plus de Toulousaines et Toulousains dans un second quartier prisé de la ville rose."
+
+instituts:
+  - nom: "Célia.B Colombette"
+    slug: "colombette"
+    adresse: "16 rue de la Colombette"
+    codePostal: "31000"
+    ville: "Toulouse"
+    telephone: "05 61 63 78 90"
+    planity: "https://www.planity.com/celia-b-colombette-31000-toulouse"
+    image: "/images/instituts/colombette.jpg"
+    description: "Notre premier institut, situé dans le quartier de la Colombette, vous accueille dans un cadre chaleureux et raffiné."
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.5!2d1.4536!3d43.6088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s16+rue+de+la+Colombette%2C+31000+Toulouse!5e0!3m2!1sfr!2sfr!4v1"
+
+  - nom: "Célia.B Victor Hugo"
+    slug: "victor-hugo"
+    adresse: "2 Bis Rue du Rempart Villeneuve"
+    codePostal: "31000"
+    ville: "Toulouse"
+    telephone: "05 61 12 34 56"
+    planity: "https://www.planity.com/celia-b-victor-hugo-31000-toulouse"
+    image: "/images/instituts/victor-hugo.jpg"
+    description: "Notre second institut, à deux pas de la place Victor Hugo, vous offre un espace moderne et apaisant."
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.5!2d1.4436!3d43.6008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s2+Bis+Rue+du+Rempart+Villeneuve%2C+Toulouse!5e0!3m2!1sfr!2sfr!4v1"

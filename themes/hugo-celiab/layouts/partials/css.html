@@ -1,0 +1,35 @@
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: '#f4f0f5',
+        secondary: '#FFFFFF',
+        accent: '#000000',
+        base: '#FFF5F5',
+        ink: '#44323A',
+        mist: '#F8EFEF'
+      },
+      fontFamily: {
+        display: ['Cormorant', 'serif'],
+        body: ['Montserrat', 'sans-serif']
+      },
+      boxShadow: {
+        soft: '12px 12px 24px rgba(211, 191, 198, 0.35), -12px -12px 24px rgba(255, 255, 255, 0.9)',
+        inset: 'inset 6px 6px 12px rgba(211, 191, 198, 0.35), inset -6px -6px 12px rgba(255, 255, 255, 0.9)'
+      }
+    }
+  }
+}
+</script>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+<!-- Custom CSS -->
+{{ $style := resources.Get "css/style.css" }}
+{{ if $style }}
+<link rel="stylesheet" href="{{ $style.Permalink }}"/>
+{{ end }}
