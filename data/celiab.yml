@@ -1,5 +1,5 @@
 social:
-  instagram: "https://www.instagram.com/celiab_institut/"
+  instagram: "https://www.instagram.com/celiabinstitut/"
 
 histoire:
   titre: "Notre Histoire"
@@ -15,7 +15,7 @@ instituts:
     adresse: "16 rue de la Colombette"
     codePostal: "31000"
     ville: "Toulouse"
-    telephone: "05 61 63 78 90"
+    telephone: "09 87 59 75 25"
     planity: "https://www.planity.com/celia-b-colombette-31000-toulouse"
     image: "/images/instituts/colombette.jpg"
     description: "Notre premier institut, situé dans le quartier de la Colombette, vous accueille dans un cadre chaleureux et raffiné."
@@ -26,7 +26,7 @@ instituts:
     adresse: "2 Bis Rue du Rempart Villeneuve"
     codePostal: "31000"
     ville: "Toulouse"
-    telephone: "05 61 12 34 56"
+    telephone: "05 61 21 96 15"
     planity: "https://www.planity.com/celia-b-victor-hugo-31000-toulouse"
     image: "/images/instituts/victor-hugo.jpg"
     description: "Notre second institut, à deux pas de la place Victor Hugo, vous offre un espace moderne et apaisant."
