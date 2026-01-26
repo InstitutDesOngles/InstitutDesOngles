@@ -1,5 +1,13 @@
 # Ai
 .claude/
+.agent/
+.agents/
+.codex/
+.cursor/
+.gemini/
+.github/skills/
+.windsurf/
+
 
 # Hugo build output
 public/
