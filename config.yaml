@@ -5,6 +5,16 @@ theme: "hugo-celiab"
 
 enableRobotsTXT: true
 
+# Désactiver les taxonomies inutiles
+disableKinds:
+  - taxonomy
+  - term
+
+# Sitemap
+sitemap:
+  changefreq: weekly
+  priority: 0.5
+
 params:
   description: "Institut des Ongles Célia.B, votre institut de beauté à Toulouse. Onglerie, soins du visage, soins du corps, épilations, cils & sourcils. Deux instituts : Colombette et Victor Hugo."
   author: "Célia.B - Institut des Ongles Toulouse"
