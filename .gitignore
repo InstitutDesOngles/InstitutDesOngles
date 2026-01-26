@@ -1,0 +1,18 @@
+# Ai
+.claude/
+
+# Hugo build output
+public/
+
+# Hugo resources
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
