@@ -128,6 +128,7 @@
           href="{{ .planity }}"
           target="_blank"
           rel="noopener noreferrer"
+          onclick="dataLayer.push({'event': 'rdv_click', 'institut': '{{ .slug }}'});"
         >
           Prendre RDV - {{ .nom }}
         </a>

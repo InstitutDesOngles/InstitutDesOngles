@@ -42,7 +42,8 @@
         <div class="soft-card py-2 min-w-[220px]">
           {{ range .Site.Data.celiab.instituts }}
           <a href="{{ .planity }}" class="block px-4 py-3 hover:bg-primary/20 transition-colors" target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            onclick="dataLayer.push({'event': 'rdv_click', 'institut': '{{ .slug }}'});">
             <span class="font-semibold">{{ .nom }}</span>
             <span class="block text-xs text-ink/60">{{ .adresse }}</span>
           </a>
@@ -62,7 +63,8 @@
         <p class="font-semibold text-ink/60 mb-2">Prendre RDV</p>
         {{ range .Site.Data.celiab.instituts }}
         <a class="block py-2 hover:text-primary transition-colors" href="{{ .planity }}" target="_blank"
-          rel="noopener noreferrer">
+          rel="noopener noreferrer"
+          onclick="dataLayer.push({'event': 'rdv_click', 'institut': '{{ .slug }}'});">
           {{ .nom }}
         </a>
         {{ end }}
