@@ -22,4 +22,5 @@ params:
 
   # Tracking
   googleTagManager: "AW-949269054"
+  gtmContainerId: "GTM-NK25BG"
   googleSiteVerification: "h3EXXoW3YUoWUo9h8ICHWHAdgXzNj6sW-lBXNQpZskc"

@@ -8,6 +8,12 @@
     {{- partial "css.html" . -}}
   </head>
   <body class="antialiased selection:bg-primary selection:text-white">
+    {{- with .Site.Params.gtmContainerId -}}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ . }}"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {{- end -}}
     <div class="halo w-96 h-96 bg-primary top-0 -left-24"></div>
     <div class="halo w-[420px] h-[420px] bg-secondary bottom-0 right-0"></div>
     <div class="halo w-72 h-72 bg-accent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
