@@ -66,10 +66,12 @@
 
           <!-- Bouton RDV -->
           <a
-            class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-ink font-semibold shadow-soft hover:bg-primary/80 transition-colors"
+            class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-primary text-ink font-semibold shadow-soft hover:bg-primary/80 transition-colors btn-rdv"
             href="{{ $institut.planity }}"
             target="_blank"
             rel="noopener noreferrer"
+            data-institut="{{ $institut.slug }}"
+            onclick="dataLayer.push({'event': 'rdv_click', 'institut': '{{ $institut.slug }}'});"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
