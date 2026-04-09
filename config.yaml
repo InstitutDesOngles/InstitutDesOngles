@@ -16,9 +16,9 @@ sitemap:
   priority: 0.5
 
 params:
-  description: "Institut des Ongles Célia.B, votre institut de beauté à Toulouse. Onglerie, soins du visage, soins du corps, épilations, cils & sourcils. Deux instituts : Colombette et Victor Hugo."
-  author: "Célia.B - Institut des Ongles Toulouse"
-  keywords: "celiab, céliab, celia b, célia b, celiab toulouse, céliab toulouse, celia b toulouse, célia b toulouse, institut des ongles, institut de beauté toulouse, onglerie toulouse, manucure toulouse, pédicure toulouse, soins ongles, colombette, victor hugo, épilation, soins visage, soins corps"
+  description: "Institut de beauté Célia.B à Toulouse : onglerie, épilations, soins visage et corps. Vernis semi-permanent, pose gel, nail art, épilation cire et caramel. Deux instituts : Colombette et Victor Hugo."
+  author: "Célia.B - Institut de Beauté Toulouse"
+  keywords: "onglerie toulouse, ongles toulouse, manucure toulouse, vernis semi permanent toulouse, pose gel toulouse, nail art toulouse, épilation toulouse, épilation cire toulouse, épilation caramel toulouse, institut de beauté toulouse, soins visage toulouse, soins corps toulouse, pédicure toulouse, cils sourcils toulouse, celiab, céliab, colombette, victor hugo"
 
   # Tracking
   googleTagManager: "AW-949269054"

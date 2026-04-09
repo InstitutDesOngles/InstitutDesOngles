@@ -4,7 +4,7 @@
 <link rel="icon" type="image/svg+xml" href="/images/logos/favicon.svg"/>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
 <meta name="author" content="{{ .Site.Params.author }}"/>
-<meta name="keywords" content="{{ .Site.Params.keywords }}"/>
+<meta name="keywords" content="{{ with .Params.keywords }}{{ . }}{{ else }}{{ .Site.Params.keywords }}{{ end }}"/>
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
@@ -20,7 +20,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ with $.Description }}{{ . }}{{ else }}{{ $.Site.Params.description }}{{ end }}{{ else }}{{ .Site.Params.description }}{{ end }}"/>
 <meta name="twitter:image" content="{{ .Site.BaseURL }}images/instituts/hero.jpg"/>
 
 <!-- Google Site Verification -->
@@ -38,7 +38,7 @@
   "@context": "https://schema.org",
   "@type": "BeautySalon",
   "name": "Célia.B Institut de Beauté",
-  "alternateName": ["Celiab", "Céliab", "Celia B", "Célia B", "Celiab Toulouse", "Céliab Toulouse", "Institut Celiab", "Institut Célia B Toulouse"],
+  "alternateName": ["Celiab", "Céliab", "Celia B", "Célia B", "Institut des Ongles Toulouse", "Institut Celiab Toulouse"],
   "description": "{{ .Site.Params.description }}",
   "url": "{{ .Site.BaseURL }}",
   "logo": "{{ .Site.BaseURL }}images/logos/Logotype.svg",
@@ -60,7 +60,6 @@
       "addressCountry": "FR"
     }
   ],
-  "telephone": "+33 5 61 63 78 90",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -76,7 +75,7 @@
     }
   ],
   "sameAs": [
-    "https://www.instagram.com/celiab_institut/"
+    "https://www.instagram.com/celiabinstitut/"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -86,8 +85,16 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Onglerie",
-          "description": "Manucure, pose de vernis, soins des ongles"
+          "name": "Onglerie Toulouse",
+          "description": "Manucure, pose de vernis semi-permanent, pose gel, nail art – 2 instituts"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Épilation Toulouse",
+          "description": "Épilation à la cire, au caramel, au fil – Institut Colombette"
         }
       },
       {
@@ -102,16 +109,8 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Épilations",
-          "description": "Épilation à la cire"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
           "name": "Cils & Sourcils",
-          "description": "Rehaussement de cils, teinture, microblading"
+          "description": "Rehaussement de cils, extension, teinture, brow lift"
         }
       }
     ]
@@ -123,18 +122,17 @@
 }
 </script>
 
-<!-- Schema.org pour chaque institut -->
 <script type="application/ld+json">
 [
   {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "Célia.B Colombette",
-    "alternateName": ["Celiab Colombette", "Céliab Colombette", "Celia B Colombette"],
-    "description": "Institut de beauté situé dans le quartier de la Colombette à Toulouse",
-    "url": "{{ .Site.BaseURL }}",
+    "alternateName": ["Celiab Colombette", "Institut des Ongles Colombette"],
+    "description": "Institut de beauté à Toulouse Colombette : onglerie, épilations, soins visage, cils & sourcils",
+    "url": "{{ .Site.BaseURL }}instituts/",
     "image": "{{ .Site.BaseURL }}images/instituts/colombette.jpg",
-    "telephone": "+33 5 61 63 78 90",
+    "telephone": "+33987597525",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "16 rue de la Colombette",
@@ -156,11 +154,11 @@
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "Célia.B Victor Hugo",
-    "alternateName": ["Celiab Victor Hugo", "Céliab Victor Hugo", "Celia B Victor Hugo"],
-    "description": "Institut de beauté situé près de la place Victor Hugo à Toulouse",
-    "url": "{{ .Site.BaseURL }}",
+    "alternateName": ["Celiab Victor Hugo", "Institut des Ongles Victor Hugo"],
+    "description": "Institut de beauté à Toulouse Victor Hugo : onglerie, soins visage, cils & sourcils",
+    "url": "{{ .Site.BaseURL }}instituts/",
     "image": "{{ .Site.BaseURL }}images/instituts/victor-hugo.jpg",
-    "telephone": "+33 5 61 12 34 56",
+    "telephone": "+33561219615",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "2 Bis Rue du Rempart Villeneuve",

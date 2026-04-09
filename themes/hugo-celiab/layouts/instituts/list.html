@@ -6,7 +6,7 @@
     <p class="text-sm uppercase tracking-[0.3em] text-ink/60 mb-2">Nos Instituts</p>
     <h1 class="text-4xl sm:text-5xl font-display font-semibold mb-4">Deux adresses pour vous accueillir</h1>
     <p class="text-lg text-ink/70 max-w-2xl mx-auto">
-      Découvrez nos deux instituts de beauté Célia.B à Toulouse. Choisissez celui qui vous convient le mieux et prenez rendez-vous en ligne.
+      Découvrez nos deux instituts de beauté Célia.B à Toulouse. Choisissez celui qui vous convient et réservez en ligne via Planity.
     </p>
   </div>
 </section>
@@ -57,11 +57,24 @@
               </div>
               <div>
                 <p class="font-semibold">Téléphone</p>
-                <a href="tel:{{ $institut.telephone | replaceRE " " "" }}" class="text-ink/70 hover:text-primary transition-colors">
+                <a href="tel:{{ $institut.telephone | replaceRE " " "" }}"
+                  class="text-ink/70 hover:text-primary transition-colors font-medium"
+                  onclick="dataLayer.push({'event': 'phone_call', 'institut': '{{ $institut.slug }}'});">
                   {{ $institut.telephone }}
                 </a>
               </div>
             </div>
+          </div>
+
+          <!-- Prestations disponibles -->
+          <div class="p-4 rounded-2xl bg-primary/10">
+            <p class="font-semibold text-sm mb-2">Prestations disponibles</p>
+            {{ if eq $institut.slug "colombette" }}
+            <p class="text-sm text-ink/70">Onglerie · Épilations · Soins du visage · Soins du corps · Cils & sourcils · Beauté des pieds</p>
+            {{ else }}
+            <p class="text-sm text-ink/70">Onglerie · Soins du visage · Soins du corps · Cils & sourcils · Beauté des pieds</p>
+            <p class="text-xs text-ink/50 mt-1">Les épilations sont disponibles à l'institut Colombette uniquement.</p>
+            {{ end }}
           </div>
 
           <!-- Bouton RDV -->
@@ -102,11 +115,21 @@
 </section>
 
 <!-- CTA -->
-<section class="py-16">
+<section class="py-16 bg-mist/70">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <p class="text-ink/70 mb-6">
-      Vous hésitez sur l'institut ? N'hésitez pas à nous contacter, nous vous conseillerons avec plaisir.
+    <h2 class="text-2xl font-display font-semibold mb-4">Vous hésitez sur l'institut ?</h2>
+    <p class="text-ink/70 mb-6 max-w-xl mx-auto">
+      N'hésitez pas à nous appeler, nous vous conseillerons avec plaisir selon votre soin et votre quartier.
     </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      {{ range .Site.Data.celiab.instituts }}
+      <a href="tel:{{ .telephone | replaceRE " " "" }}"
+        class="px-6 py-3 rounded-full bg-white/80 font-semibold shadow-soft hover:bg-white transition-colors text-center"
+        onclick="dataLayer.push({'event': 'phone_call', 'institut': '{{ .slug }}'});">
+        {{ .nom }} – {{ .telephone }}
+      </a>
+      {{ end }}
+    </div>
   </div>
 </section>
 

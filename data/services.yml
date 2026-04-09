@@ -1,7 +1,7 @@
 categories:
   - nom: "Onglerie"
     slug: "onglerie"
-    description: "Notre savoir-faire pour des ongles sublimés"
+    description: "Notre savoir-faire pour des ongles sublimés – disponible dans nos 2 instituts"
     icon: "nail"
     prestations:
       - "Manucure classique"
@@ -37,8 +37,9 @@ categories:
 
   - nom: "Épilations"
     slug: "epilations"
-    description: "Techniques douces pour une peau parfaite"
+    description: "Techniques douces pour une peau parfaite – cire, caramel, fil"
     icon: "wax"
+    colombetteOnly: true
     prestations:
       - "Épilation cire"
       - "Épilation au caramel"
